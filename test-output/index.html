@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Nflows">
+              <span class="suite-name border-failed">Nflows</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Nflows">
+                    <span>E:\Oxygen Workspace\nflow Quantum master\src\main\resources\config\testng_web.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Nflows">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Nflows">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Nflows">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Nflows">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Nflows">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Nflows">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method, 1 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Nflows" class="hide-methods failed suite-Nflows"> (hide)</a> <!-- hide-methods failed suite-Nflows -->
+                      <a href="#" panel-name="suite-Nflows" class="show-methods failed suite-Nflows"> (show)</a> <!-- show-methods failed suite-Nflows -->
+                    </span>
+                    <div class="method-list-content failed suite-Nflows">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Nflows" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Edit a Workflow definition({username=Sumesh, password=Stradegi@123, Url_Testing=https://www.amonboard.com/nFlows/login/login.js...)">Edit a Workflow definition({username=Sumesh, password=Stradegi@123, Url_Testing=https://www.amonboard.com/nFlows/login/login.js...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Nflows -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Nflows" class="panel Nflows">
+          <div class="suite-Nflows-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qmetry.qaf.automation.step.client.DataDrivenScenario</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Edit a Workflow definition({username=Sumesh, password=Stradegi@123, Url_Testing=https://www.amonboard.com/nFlows/login/login.js...)">
+                  </a> <!-- Edit a Workflow definition({username=Sumesh, password=Stradegi@123, Url_Testing=https://www.amonboard.com/nFlows/login/login.js...) -->
+                  <span class="method-name">Edit a Workflow definition</span>
+                  <span class="parameters">({username=Sumesh, password=Stradegi@123, Url_Testing=https://www.amonboard.com/nFlows/login/login.jsp, menuName=Workflow Definition, workflowName=UOB Manual, __index=1})</span>
+                  <div class="stack-trace">com.qmetry.qaf.automation.step.StepInvocationException: can not find C:\Users\sumeshm\Music\sikuliImage\Worklow Node.PNG in S(0)[0,0 1366x768]
+	at .And I edit workflow page(src/main/resources/scenarios/Entity.feature:56)
+	at com.quantum.steps.NFlowsStepDef.I_edit_workflow(com.quantum.steps.NFlowsStepDef:0)
+	at org.sikuli.script.Region.handleFindFailedShowDialog(Region.java:2189)
+	at org.sikuli.script.Region.handleFindFailed(Region.java:2134)
+	at org.sikuli.script.Region.wait(Region.java:2546)
+	at org.sikuli.script.Region.find(Region.java:2205)
+	at org.sikuli.script.Region.getLocationFromTarget(Region.java:3067)
+	at org.sikuli.script.Region.click(Region.java:3534)
+	at org.sikuli.script.Region.click(Region.java:3519)
+	at com.quantum.steps.NFlowsStepDef.I_edit_workflow(Unknown Source)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:69)
+Caused by: FindFailed: can not find C:\Users\sumeshm\Music\sikuliImage\Worklow Node.PNG in S(0)[0,0 1366x768]
+  Line 2189, in file Region.java
+
+	at org.sikuli.script.Region.handleFindFailedShowDialog(Region.java:2189)
+	at org.sikuli.script.Region.handleFindFailed(Region.java:2134)
+	at org.sikuli.script.Region.wait(Region.java:2546)
+	at org.sikuli.script.Region.find(Region.java:2205)
+	at org.sikuli.script.Region.getLocationFromTarget(Region.java:3067)
+	at org.sikuli.script.Region.click(Region.java:3534)
+	at org.sikuli.script.Region.click(Region.java:3519)
+	at com.quantum.steps.NFlowsStepDef.I_edit_workflow(Unknown Source)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:69)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Nflows-class-failed -->
+        </div> <!-- panel Nflows -->
+        <div panel-name="test-xml-Nflows" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Oxygen Workspace\nflow Quantum master\src\main\resources\config\testng_web.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;100&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Nflows&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.quantum.listeners.QuantumReportiumListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Entity&quot;&gt;
+    &lt;parameter name=&quot;driver.capabilities.model&quot; value=&quot;iPhone.*&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;@EditWorkflow&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Entity --&gt;
+&lt;/suite&gt; &lt;!-- Nflows --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Nflows" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Nflows</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Entity (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Nflows" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Nflows</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">@EditWorkflow</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Edit a Workflow definition</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">@Entity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Edit a Workflow definition</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Nflows" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Nflows</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Nflows');
+function tableData_Nflows() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Edit a Workflow definition')
+data.setCell(0, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(0, 3, 381852);
+window.suiteTableData['Nflows']= { tableData: data, tableDiv: 'times-div-Nflows'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-Nflows">
+              </div> <!-- times-div-Nflows -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Nflows" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Nflows</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Edit a Workflow definition({username=Sumesh, password=Stradegi@123, Url_Testing=https://www.amonboard.com/nFlows/login/login.js...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█</span>
+                <span class="reporter-method-output">█ TEST STARTED: Edit a Workflow definition [{username=Sumesh, password=Stradegi@123, Url_Testing=https://www.amonboard.com/nFlows/login/login.jsp, menuName=Workflow Definition, workflowName=UOB Manual, __index=1}] █</span>
+                <span class="reporter-method-output">█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█</span>
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I launch Nflows application using "https://www.amonboard.com/nFlows/login/login.jsp"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I login to Nflows with "Sumesh" and "Stradegi@123" credentials</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And I navigate to "Workflow Definition" page</div><div  class="teststepfail"><span class="teststepfail-label">T </span>And I edit workflow page</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>can not find C:\Users\sumeshm\Music\sikuliImage\Worklow Node.PNG in S(0)[0,0 1366x768]</div></div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Nflows" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.qmetry.qaf.automation.step.client.DataDrivenScenario</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Edit a Workflow definition</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Nflows" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qmetry.qaf.automation.step.client.DataDrivenScenario</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupSuit(org.testng.TestRunner@35645047)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">setupTest(org.testng.TestRunner@35645047)</span>
+                <span class="method-start">32 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(org.testng.TestRunner@35645047)</span>
+                <span class="method-start">38 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">182 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Edit a Workflow definition({username=Sumesh, password=Stradegi@123, Url_Testing=https://www.amonboard.com/nFlows/login/login.js...)</span>
+                <span class="method-start">183 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@35645047, [TestResult name=Edit a Workflow definition status=FAILURE method=sr...)</span>
+                <span class="method-start">386786 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass(org.testng.TestRunner@35645047)</span>
+                <span class="method-start">386788 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest(org.testng.TestRunner@35645047)</span>
+                <span class="method-start">386792 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

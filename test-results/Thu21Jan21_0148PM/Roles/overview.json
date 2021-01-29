@@ -1,0 +1,60 @@
+{
+  "total": 5,
+  "pass": 5,
+  "fail": 0,
+  "skip": 0,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.DataDrivenScenario"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "browserName": "chrome",
+      "cssSelectorsEnabled": true,
+      "javascriptEnabled": true,
+      "model": "galaxy.*",
+      "platform": "ANY",
+      "takesScreenshot": true,
+      "version": ""
+    },
+    "browser-actual-capabilities": {
+      "networkConnectionEnabled": "false",
+      "chrome": "{chromedriverVersion=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}), userDataDir=C:\\Users\\Sundars\\AppData\\Local\\Temp\\scoped_dir10100_1829183611}",
+      "timeouts": "{implicit=0, pageLoad=300000, script=30000}",
+      "pageLoadStrategy": "normal",
+      "unhandledPromptBehavior": "dismiss and notify",
+      "strictFileInteractability": "false",
+      "platform": "WINDOWS",
+      "proxy": "Proxy()",
+      "goog:chromeOptions": "{debuggerAddress=localhost:58538}",
+      "acceptInsecureCerts": "false",
+      "browserVersion": "88.0.4324.96",
+      "browserName": "chrome",
+      "javascriptEnabled": "true",
+      "platformName": "WINDOWS",
+      "setWindowRect": "true",
+      "webauthn:virtualAuthenticators": "true"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "14",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "01-Jan-2019 19:18:14"
+    },
+    "run-parameters": {
+      "driver.capabilities.model": "galaxy.*",
+      "resources": "src/main/resources/common"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_66",
+      "os.arch": "amd64",
+      "host": "STRINLP030",
+      "os.name": "Windows 10",
+      "user.name": "sundars",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1611217110604,
+  "endTime": 1611217297294
+}

@@ -1,0 +1,25 @@
+#locator repository for Login page
+#search.text.box = {\"locator\":\"name=q\",\"desc\":\"Search Text Box\"}
+
+nflows.dashboardexecution.treeSearchBx = //input[contains(@data-ng-model,'tree_search')]
+nflows.dashboardexecution.loadingicon=//div[@id='loader']//div[@class='sk-circle12 sk-child']
+nflows.dashboardexecution.gridheading = {"locator":"xpath=//label[@class='padding-zero landing-header ng-binding' and contains(text(),'%s')]"}
+nflows.dashboardexecution.grid1loadingicon=//div[@id='loader_0']//div[@class='sk-circle12-small sk-child-small']
+nflows.dashboardexecution.ellipsislink = //button[@class='btn btn-grey extend-btn-width extend-button-height ng-scope']
+nflows.dashboardexecution.png = //ul[contains(@class,'dropdown-menu dropdown-menu-right')]//a[contains(text(),'PNG')]
+nflows.dashboardexecution.jpeg = //ul[contains(@class,'dropdown-menu dropdown-menu-right')]//a[contains(text(),'JPEG')]
+nflows.dashboardexecution.excel = //div[@class='col-sm-7 col-xs-10 text-right padding-right-4 open']//a[@class='panel-fullscreen-btn'][contains(text(),'Excel')]
+nflows.dashboardexecution.pdf = //div[@class='col-sm-7 col-xs-10 text-right padding-right-4 open']//a[@class='panel-fullscreen-btn'][contains(text(),'PDF')]
+nflows.dashboardexecution.dashboardname =//label[@class='padding-zero landing-header ng-binding']
+nflows.dashboardexecution.pdfexport =//button[@class='btn btn-default innerpage-button-height margin-right-minus-2'][contains(text(),'Export')]
+nflows.dashboardexecution.sendmail = //div[@class='col-sm-7 col-xs-10 text-right padding-right-4 open']//a[contains(text(),'Send Mail')]
+nflows.dashboardexecution.subject = //input[@class='form-control control-width-90 ng-pristine ng-untouched ng-valid ng-empty']
+nflows.dashboardexecution.mailcontent = //textarea[contains(@class,'dashboard-mail-desc')]
+nflows.dashboardexecution.mailtosearch = //div[@class='dropdown-header']//input[@placeholder='Search...']
+nflows.dashboardexecution.mailtousername = //span[@class='ng-binding']
+nflows.dashboardexecution.mailto = //div[@class='col-sm-6 padding-zero']//button
+nflows.dashboardexecution.mailtosendbutton = //button[@class='btn btn-default margin-right-minus-2 innerpage-button-height']
+nflows.dashboardexecution.attachmentformat = //div[@class='ng-isolate-scope']//div[@class='multiselect-parent btn-group dropdown-multiselect']//div//button[@class='dropdown-toggle ng-binding ng-scope'][contains(text(),'Select')]
+nflows.dashboardexecution.attachmentpngformat = //span[contains(text(),'PNG')]
+nflows.dashboardexecution.emailsentnotification = //div[@class='notification-message' and contains(text(),'Email sent successfully')]
+nflows.dashboardexecution.emailsentnotificationclose = //button[@class='notification-close']

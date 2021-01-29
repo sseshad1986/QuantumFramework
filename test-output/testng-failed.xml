@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Nflows]">
+  <listeners>
+    <listener class-name="com.quantum.listeners.QuantumReportiumListener"/>
+  </listeners>
+  <test name="Roles(failed)">
+    <parameter name="driver.capabilities.model" value="galaxy.*"/>
+    <groups>
+      <run>
+        <include name="@AD_00_LaunchNflows"/>
+        <include name="@AD_01_NflowsLogin"/>
+        <include name="@Roles_3_6"/>
+        <exclude name="@Roles_Disabled_3_1"/>
+        <exclude name="@Roles_Write_3_2"/>
+        <exclude name="@Roles_Read_3_3"/>
+        <exclude name="@AD_07_CreateTestResult"/>
+        <exclude name="@AD_08_CreatePDFReport"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.DataDrivenScenario">
+        <methods>
+          <include name="scenario" invocation-numbers="0"/>
+          <include name="setupTest"/>
+          <include name="setupSuit"/>
+          <include name="setup"/>
+          <include name="afterClass"/>
+          <include name="setupMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.qmetry.qaf.automation.step.client.DataDrivenScenario -->
+    </classes>
+  </test> <!-- Roles(failed) -->
+</suite> <!-- Failed suite [Nflows] -->

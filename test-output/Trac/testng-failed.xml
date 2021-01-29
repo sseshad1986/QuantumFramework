@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="100" guice-stage="DEVELOPMENT" name="Failed suite [Trac]">
+  <listeners>
+    <listener class-name="com.quantum.listeners.QuantumReportiumListener"/>
+  </listeners>
+  <test name="Trac(failed)">
+    <parameter name="driver.capabilities.model" value="Galaxy.*"/>
+    <groups>
+      <run>
+        <include name="@Trac"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.DataDrivenScenario">
+        <methods>
+          <include name="scenario" invocation-numbers="0"/>
+          <include name="scenario" invocation-numbers="0"/>
+          <include name="setupTest"/>
+          <include name="setupSuit"/>
+          <include name="setup"/>
+          <include name="afterClass"/>
+          <include name="setupMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.qmetry.qaf.automation.step.client.DataDrivenScenario -->
+    </classes>
+  </test> <!-- Trac(failed) -->
+</suite> <!-- Failed suite [Trac] -->

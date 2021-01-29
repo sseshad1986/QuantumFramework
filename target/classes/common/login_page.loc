@@ -1,0 +1,18 @@
+#locator repository for Login page
+#search.text.box = {\"locator\":\"name=q\",\"desc\":\"Search Text Box\"}
+
+nflows.login.site.unavailable=//h1/span[text()='This site can’t be reached']
+nflows.login.site.pageNotFound=//title[text()='nFlows - Page Not Found']
+
+nflows.login.Userid.txtbx = //input[@id='uname']
+nflows.login.Password.txtbx = //input[@id='upassword']
+nflows.login.submit.button = //button[@class='btn btn-login']
+
+nflows.login.submit.button = //button[@class='btn btn-login']
+nflows.login.submit.button = //button[@class='btn btn-login']
+nflows.login.submit.button = //button[@class='btn btn-login']
+
+nflows.login.forgotpassword.forgotpasswordlnk=//a[@id='forgotPasswordText']
+nflows.login.forgotpassword.TypeUsername =//div[@class='col-sm-12 padding-zero padding-top-45']//input[@id='forgot_id_test']
+nflows.login.forgotpassword.ClickForgotSubmit=//div[@id='forgot_pwd']//button[@class='btn btn-login-default margin-right-minus-2'][contains(text(),'Submit')]
+nflows.login.forgotpassword.CancelForgot=//div[@id='forgot_pwd']//button[@class='btn btn-login-grey'][contains(text(),'Cancel')]

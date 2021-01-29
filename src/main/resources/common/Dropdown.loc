@@ -1,0 +1,25 @@
+#locator repository for Dropdown page
+#search.text.box = {\"locator\":\"name=q\",\"desc\":\"Search Text Box\"}
+
+nflows.dropdown.unavailable=//h1/span[text()='This site can’t be reached']
+nflows.dropdown.pageNotFound=//title[text()='nFlows - Page Not Found']
+
+nflows.dropdown.newdropdown.button = //button[@class='btn btn-default']
+nflows.dropdown.searchbx.txtbx = //input[@id='searchBox']
+nflows.dropdown.searchresult = //span[@class='ng-binding']
+nflows.dropdown.searchresult.edit = //div[@class='WRITE ng-scope']
+
+nflows.dropdown.newdropdown.listname.txtbx = //input[contains(@class,'form-control control-width-90')]
+#//input[@class='form-control control-width-90 ng-pristine ng-untouched ng-valid ng-empty ng-valid-maxlength']
+nflows.dropdown.newdropdown.status.toggle = //span[@class='btn btn-default btn-toggle-handle btn-toggle-default mini toggle-handle']
+nflows.dropdown.newdropdown.status.Active = //toggle
+nflows.dropdown.newdropdown.status.Inactive = //toggle[@class='margin-right-10 ng-pristine ng-untouched ng-valid ng-isolate-scope ng-not-empty']
+nflows.dropdown.newdropdown.listvalue.add = //button[contains(text(),'Add')]
+nflows.dropdown.newdropdown.listvalue.first=//input[contains(@class,'form-control control-width-60')]
+nflows.dropdown.newdropdown.listvalue.edit=//div[@class='WRITE height-30 ng-scope']
+#//div[contains(@class,'ngCellText')]
+
+nflows.dropdown.newdropdown.save.button = //button[@class='btn btn-default margin-right-minus-2']
+nflows.dropdown.newdropdown.cancel.button = //button[@class='btn btn-grey']
+nflows.dropdown.newdropdown.successmsg = //div[@class='notification-title']
+

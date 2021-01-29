@@ -1,0 +1,68 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "Iam_on_Nflows",
+      "args": [
+        "[http://192.168.1.107:8080/nFlows2.0/login/login.jsp]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://192.168.1.107:8080/nFlows2.0/login/login.jsp}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 6059
+        },
+        {
+          "commandName": "maximizeCurrentWindow",
+          "args": [
+            "{}"
+          ],
+          "result": "{height=696, width=1296, x=-8, y=-8}",
+          "subLogs": [],
+          "duration": 3199
+        },
+        {
+          "commandName": "setTimeout",
+          "args": [
+            "{pageLoad=20000}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "nFlows - Login",
+          "subLogs": [],
+          "duration": 8
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I launch Nflows application using \"http://192.168.1.107:8080/nFlows2.0/login/login.jsp\"",
+      "type": "TestStepPass",
+      "duration": 14204,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Nflows Site is launched successfully",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

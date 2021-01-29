@@ -1,0 +1,36 @@
+#locator repository for Login page
+#search.text.box = {\"locator\":\"name=q\",\"desc\":\"Search Text Box\"}
+
+nflows.reports.execution.Generate=//button[text()='Generate']
+nflows.reports.execution.Clear=//button[text()='Clear']
+nflows.reports.execution.EditReport=//button[text()='Edit Report']
+nflows.reports.execution.NewReport=//button[text()='New Report']
+
+nflows.reportexecution.loadingicon=//div[@id='loader']//div[@class='sk-circle12 sk-child']
+nflows.reportexecution.reportheading = {"locator":"xpath=//label[@class='padding-zero landing-header ng-binding' and contains(text(),'%s')]"}
+nflows.reportexecution.securitystatusdrpdwn = //div[@id='report_select']//button[@class='dropdown-toggle ng-binding ng-scope']
+nflows.reportexecution.securitystatusactive = //span[contains(text(),'Active')]
+nflows.reportexecution.securitystatusreport = //div[@id='download-content0']
+nflows.reportexecution.pdfexport =//button[@class='btn btn-default innerpage-button-height margin-right-minus-2'][contains(text(),'Export')]
+nflows.reportexecution.subject = //input[@class='form-control control-width-90 ng-pristine ng-untouched ng-valid ng-empty']
+nflows.reportexecution.mailcontent = //textarea[contains(@class,'dashboard-mail-desc')]
+nflows.reportexecution.mailtosearch = //div[@class='dropdown-header']//input[@placeholder='Search...']
+nflows.reportexecution.mailtousername = //span[@class='ng-binding']
+nflows.reportexecution.mailto = //div[@class='col-sm-6 padding-zero']//button
+nflows.reportexecution.mailtosendbutton = //button[@class='btn btn-default margin-right-minus-2 innerpage-button-height']
+nflows.reportexecution.attachmentformat = //div[@class='ng-isolate-scope']//div[@class='multiselect-parent btn-group dropdown-multiselect']//div//button[@class='dropdown-toggle ng-binding ng-scope'][contains(text(),'Select')]
+nflows.reportexecution.attachmentpngformat = //span[contains(text(),'PNG')]
+nflows.reportexecution.emailsentnotification = //div[@class='notification-message' and contains(text(),'Email sent successfully')]
+nflows.reportexecution.emailsentnotificationclose = //button[@class='notification-close']
+nflows.reportexecution.widgetmoredetails = //a[contains(@title,'More options')]
+nflows.reportexecution.widgetdownloadpng = //a[@class='ng-scope'][contains(text(),'PNG')]
+nflows.reportexecution.widgetdownloadjpeg = //a[@class='ng-scope'][contains(text(),'JPEG')]
+nflows.reportexecution.widgetdownloadexcel = //div[contains(@class,'dropdown ng-scope open')]//li/a[text()='Excel']
+nflows.reportexecution.widgetdownloadpdf = //div[contains(@class,'dropdown ng-scope open')]//li/a[text()='PDF']
+
+nflows.reports.execution.MoreDetails=//button[@title='More Details']
+nflows.reports.execution.Download_PNG=//li/a[text()='PNG']
+nflows.reports.execution.Download_JPEG=//li/a[text()='JPEG']
+nflows.reports.execution.Download_Excel=//li/a[text()='Excel']
+nflows.reports.execution.Download_PDF=//li/a[text()='PDF']
+nflows.reports.execution.Download_SendMail=//li/a[text()='Send Mail']

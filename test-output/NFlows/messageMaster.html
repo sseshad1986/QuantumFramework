@@ -1,0 +1,124 @@
+<html>
+<head>
+<title>TestNG:  messageMaster</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>messageMaster</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Dec 23 18:43:01 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>40 seconds (40878 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>@MS_00_LaunchNflows @MS_01_NflowsLogin @MS_04_WorkflowDataDictionary </td>
+</tr><tr>
+<td>Excluded groups:</td><td>@MS_02_MessageMaster @MS_06_CreatePDFReport @MS_02_1_MessageMaster @MS_07_CreateTestResult @MS_03_EntityDataDictionary </td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Launching Nflows application()'><b>Launching Nflows application</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Launching Nflows application)<br>Parameters: {Url_Testing=http://192.168.1.107:8080/nFlows2.0/login/login.jsp, Execute=YES, recording_enabled=NO, pdfReport_enabled=YES, isExcelReport_enabled=YES, __index=1}<br/>
+<a href="#Output-1631086936" onClick='toggleBox("Output-1631086936", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1631086936" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1631086936">
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█<br/>
+█ TEST STARTED: Launching Nflows application [{Url_Testing=http://192.168.1.107:8080/nFlows2.0/login/login.jsp, Execute=YES, recording_enabled=NO, pdfReport_enabled=YES, isExcelReport_enabled=YES, __index=1}] █<br/>
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█<br/>
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I launch Nflows application using "http://192.168.1.107:8080/nFlows2.0/login/login.jsp"</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Nflows Site is launched successfully</div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Login to Nflows()'><b>Login to Nflows</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Login to Nflows)<br>Parameters: {username=Sundar, password=Sundar@123, __index=1}<br/>
+<a href="#Output-896852376" onClick='toggleBox("Output-896852376", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-896852376" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-896852376">
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█<br/>
+█ TEST STARTED: Login to Nflows [{username=Sundar, password=Sundar@123, __index=1}] █<br/>
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█<br/>
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I login to Nflows with "Sundar" and "Sundar@123" credentials</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Success - Login is Successful !</div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Workflow Data Dictionary validation()'><b>Workflow Data Dictionary validation</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Workflow Data Dictionary validation)<br>Parameters: {wfDDSearch=Fund Name, DataType=Number, FieldName=HSBC Transaction id, DataLabel=HSBC Transaction id, FieldDescription=Insurance approval id, Length=3, Precision=3, updatedFiedname=IDB Transaction id, updatedDataLabel=IDB Transaction id, search=HSBC Transaction id, __index=1}<br/>
+<a href="#Output-740467528" onClick='toggleBox("Output-740467528", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-740467528" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-740467528">
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█<br/>
+█ TEST STARTED: Workflow Data Dictionary validation [{wfDDSearch=Fund Name, DataType=Number, FieldName=HSBC Transaction id, DataLabel=HSBC Transaction id, FieldDescription=Insurance approval id, Length=3, Precision=3, updatedFiedname=IDB Transaction id, updatedDataLabel=IDB Transaction id, search=HSBC Transaction id, __index=1}] █<br/>
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█<br/>
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I navigate to "Workflow Data Dictionary" page</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Navigated to Workflow Data Dictionary successfully</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I validate landing page in Workflow Data Dictionary</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Landing page displayed in Workflow Data Dictionaryr successfully</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And I Search Workflow Data Dictionary "Fund Name"</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Search in Workflow Data Dictionary successfull</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I Create new field in Workflow Data Dictionary "HSBC Transaction id", "HSBC Transaction id", "Insurance approval id", "Number", "3", "3"</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Failed to Create in Workflow Data Dictionary</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I edit workflow data dictionary "HSBC Transaction id", "IDB Transaction id", "IDB Transaction id"</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Failed to Edit in Workflow Data Dictionary</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I click on Logout Button</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>I click on Logout Button successfully</div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>24</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ea</td></tr>
+</table><p>
+</body>
+</html>

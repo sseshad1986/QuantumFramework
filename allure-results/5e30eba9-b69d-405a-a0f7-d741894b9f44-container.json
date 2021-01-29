@@ -1,0 +1,1 @@
+{"uuid":"5e30eba9-b69d-405a-a0f7-d741894b9f44","name":"com.qmetry.qaf.automation.ui.AbstractTestCase.afterMethod","description":"","start":1571152863587,"stop":1571152863587,"children":["2fa8646b-135b-4ba0-9084-15277b211c2e"],"afters":[{"name":"afterMethod","status":"passed","stage":"finished","description":"","start":1571152863587,"stop":1571152863587}]}

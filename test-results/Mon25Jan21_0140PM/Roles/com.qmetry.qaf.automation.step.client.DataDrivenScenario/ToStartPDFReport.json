@@ -1,0 +1,22 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "createPDFReport",
+      "args": [
+        "[YES]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "When I create a PDF report based on \"YES\"",
+      "type": "TestStepPass",
+      "duration": 15143,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

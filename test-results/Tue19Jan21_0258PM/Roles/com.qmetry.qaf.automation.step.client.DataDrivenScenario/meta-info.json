@@ -1,0 +1,178 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "Url_Testing": "http://192.168.1.107:8080/nFlowsEnhancementsRelease/login/login.jsp",
+          "Url_Testing_v2": "http://192.168.1.107:8080/nFlows2.0/login/login.jsp",
+          "Execute": "YES",
+          "recording_enabled": "NO",
+          "pdfReport_enabled": "YES",
+          "isExcelReport_enabled": "YES",
+          "__index": 1.0
+        }
+      ],
+      "metaData": {
+        "datafile": "src/main/resources/data/testData.xls",
+        "description": "",
+        "groups": [
+          "@AD_00_LaunchNflows",
+          "@Administrator"
+        ],
+        "lineNo": 5.0,
+        "name": "Launching Nflows application",
+        "referece": "src/main/resources/scenarios/Administrator.feature",
+        "resultFileName": "LaunchingNflowsApplication",
+        "sheetName": "Environment",
+        "sign": "src.main.resources.scenarios.Administrator.feature.Launching Nflows application( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1611048531602,
+      "duration": 14460,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "username": "Sundar",
+          "password": "Sundar@123",
+          "__index": 1.0
+        }
+      ],
+      "metaData": {
+        "datafile": "src/main/resources/data/testData.xls",
+        "description": "",
+        "groups": [
+          "@AD_01_NflowsLogin",
+          "@Administrator"
+        ],
+        "lineNo": 10.0,
+        "name": "Login to Nflows",
+        "referece": "src/main/resources/scenarios/Administrator.feature",
+        "resultFileName": "LoginToNflows",
+        "sheetName": "Nflows_Login",
+        "sign": "src.main.resources.scenarios.Administrator.feature.Login to Nflows( java.util.Map)[pri:1001, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]"
+      },
+      "dependsOn": [],
+      "startTime": 1611048546582,
+      "duration": 5656,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "username": "Sundar",
+          "password": "Sundar@123",
+          "Search_RoleName": "Automation",
+          "Access": "WRITE",
+          "Disabled": "DISABLED",
+          "Read": "READ",
+          "Write": "WRITE",
+          "menuName": "Entity Definition;Workflow Definition;My Request;Request Admin;Document Manager;API Tokens;Team Definition;Teams;User Definition;Users;User Access Configuration;Entity Data Dictionary;Workflow Data Dictionary;Business Calendar;Dropdown;Message;Users;System Admin;Audit Report;SecurityMaster;",
+          "menu": "Entity Definition;Workflow Definition;Request Admin;Teams;User Definition;Dropdown;Business Calendar;Export API;System Admin;User Access Configuration;Entity Data Dictionary;Workflow Data Dictionary",
+          "landingMenu": "Entity Definition;Workflow;NA;Teams;NA;Dropdown;Business Calendar;Export API;NA;NA;NA;NA",
+          "entity": "School Admission form",
+          "rules": "Get records based on board school~Get records based on age",
+          "single_rules": "Get records based on board school",
+          "multi_rules": "Get records based on board school~Get records based on age",
+          "__index": 1.0
+        }
+      ],
+      "metaData": {
+        "datafile": "src/main/resources/data/MessageMaster.xls",
+        "description": "",
+        "groups": [
+          "@Roles_Write_3_2",
+          "@Administrator"
+        ],
+        "lineNo": 176.0,
+        "name": "Roles - Change access to WRITE at menu level",
+        "referece": "src/main/resources/scenarios/Administrator.feature",
+        "resultFileName": "RolesChangeAccessToWRITEAtMenuLevel",
+        "sheetName": "Roles",
+        "sign": "src.main.resources.scenarios.Administrator.feature.Roles - Change access to WRITE at menu level( java.util.Map)[pri:1002, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ea]"
+      },
+      "dependsOn": [],
+      "startTime": 1611048552498,
+      "duration": 212422,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "Url_Testing": "http://192.168.1.107:8080/nFlowsEnhancementsRelease/login/login.jsp",
+          "Url_Testing_v2": "http://192.168.1.107:8080/nFlows2.0/login/login.jsp",
+          "Execute": "YES",
+          "recording_enabled": "NO",
+          "pdfReport_enabled": "YES",
+          "isExcelReport_enabled": "YES",
+          "__index": 1.0
+        }
+      ],
+      "metaData": {
+        "datafile": "src/main/resources/data/testData.xls",
+        "description": "",
+        "groups": [
+          "@AD_07_CreateTestResult",
+          "@Administrator"
+        ],
+        "lineNo": 328.0,
+        "name": "To Create Test Result file",
+        "referece": "src/main/resources/scenarios/Administrator.feature",
+        "resultFileName": "ToCreateTestResultFile",
+        "sheetName": "Environment",
+        "sign": "src.main.resources.scenarios.Administrator.feature.To Create Test Result file( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]"
+      },
+      "dependsOn": [],
+      "startTime": 1611048765150,
+      "duration": 4647,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "Url_Testing": "http://192.168.1.107:8080/nFlowsEnhancementsRelease/login/login.jsp",
+          "Url_Testing_v2": "http://192.168.1.107:8080/nFlows2.0/login/login.jsp",
+          "Execute": "YES",
+          "recording_enabled": "NO",
+          "pdfReport_enabled": "YES",
+          "isExcelReport_enabled": "YES",
+          "__index": 1
+        }
+      ],
+      "metaData": {
+        "datafile": "src/main/resources/data/testData.xls",
+        "description": "",
+        "groups": [
+          "@Roles_CreatePDFReport",
+          "@Administrator"
+        ],
+        "lineNo": 334,
+        "name": "To Start PDF Report",
+        "referece": "src/main/resources/scenarios/Administrator.feature",
+        "resultFileName": "ToStartPDFReport",
+        "sheetName": "Environment",
+        "sign": "src.main.resources.scenarios.Administrator.feature.To Start PDF Report( java.util.Map)[pri:1004, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ec]"
+      },
+      "dependsOn": [],
+      "startTime": 1611048770024,
+      "duration": 8109,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

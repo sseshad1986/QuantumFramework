@@ -1,0 +1,230 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "I_login_to_Nflows_with_userName_and_password",
+      "args": [
+        "[Sundar, Sundar@123]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='uname'], using=xpath}"
+          ],
+          "result": "id: 67c203ca-8b66-4a1e-99cf-018982298ae4",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='uname']",
+            "{\"id\":\"67c203ca-8b66-4a1e-99cf-018982298ae4\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 64
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='uname'], using=xpath}"
+          ],
+          "result": "id: 67c203ca-8b66-4a1e-99cf-018982298ae4",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //input[@id='uname']",
+            "{\"id\":\"67c203ca-8b66-4a1e-99cf-018982298ae4\",\"value\":[\"Sundar\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 79
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='upassword'], using=xpath}"
+          ],
+          "result": "id: 5f686012-c6ca-4fc9-b8d7-ad22a8a77ade",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='upassword']",
+            "{\"id\":\"5f686012-c6ca-4fc9-b8d7-ad22a8a77ade\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='upassword'], using=xpath}"
+          ],
+          "result": "id: 5f686012-c6ca-4fc9-b8d7-ad22a8a77ade",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //input[@id='upassword']",
+            "{\"id\":\"5f686012-c6ca-4fc9-b8d7-ad22a8a77ade\",\"value\":[\"Sundar@123\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 156
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//button[@class='btn btn-login'], using=xpath}"
+          ],
+          "result": "id: 0540b121-f154-4263-ac3d-7c4a2778c7b4",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //button[@class='btn btn-login']",
+            "{\"id\":\"0540b121-f154-4263-ac3d-7c4a2778c7b4\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 38
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//button[@class='btn btn-login'], using=xpath}"
+          ],
+          "result": "id: 0540b121-f154-4263-ac3d-7c4a2778c7b4",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementEnabled",
+          "args": [
+            "By.xpath: //button[@class='btn btn-login']",
+            "{\"id\":\"0540b121-f154-4263-ac3d-7c4a2778c7b4\"}"
+          ],
+          "result": "isElementEnabled:true",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//button[@class='btn btn-login'], using=xpath}"
+          ],
+          "result": "id: 0540b121-f154-4263-ac3d-7c4a2778c7b4",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //button[@class='btn btn-login']",
+            "{\"id\":\"0540b121-f154-4263-ac3d-7c4a2778c7b4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 126
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 2255
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "[id: f21449a7-8396-4574-b8e9-b54c1e316f03]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: f21449a7-8396-4574-b8e9-b54c1e316f03",
+          "subLogs": [],
+          "duration": 2
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"f21449a7-8396-4574-b8e9-b54c1e316f03\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 42
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//img[contains(@class,'vertical-align')], using=xpath}"
+          ],
+          "result": "id: 63389a6b-3ff3-4f07-9b68-7f35b3f8c652",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //img[contains(@class,'vertical-align')]",
+            "{\"id\":\"63389a6b-3ff3-4f07-9b68-7f35b3f8c652\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 44
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I login to Nflows with \"Sundar\" and \"Sundar@123\" credentials",
+      "type": "TestStepPass",
+      "duration": 5478,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Success - Login is Successful !",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

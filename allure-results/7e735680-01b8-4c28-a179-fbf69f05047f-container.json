@@ -1,0 +1,1 @@
+{"uuid":"7e735680-01b8-4c28-a179-fbf69f05047f","name":"com.qmetry.qaf.automation.testng.TestNGTestCase.setupMethod","description":"","start":1571335400249,"stop":1571335400250,"children":["3c9aa773-d7fc-492e-b7bb-3a69eceefe55"],"befores":[{"name":"setupMethod","status":"passed","stage":"finished","description":"","start":1571335400249,"stop":1571335400249}]}

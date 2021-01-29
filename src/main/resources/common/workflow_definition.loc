@@ -1,0 +1,4 @@
+#locator repository for trac home page
+nflows.workflow.definition.newWorkflowBtn = //input[@id='uname']
+nflows.workflow.definition.gridView = //input[@id='uname']
+nflows.workflow.definition.relationshipView = //input[@id='uname']

@@ -1,0 +1,68 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "Url_Testing": "http://192.168.1.107:8080/nFlowsEnhancementsRelease/login/login.jsp",
+          "Url_Testing_v2": "http://192.168.1.107:8080/nFlows2.0/login/login.jsp",
+          "Execute": "YES",
+          "recording_enabled": "NO",
+          "pdfReport_enabled": "YES",
+          "isExcelReport_enabled": "YES",
+          "__index": 1.0
+        }
+      ],
+      "metaData": {
+        "datafile": "src/main/resources/data/testData.xls",
+        "description": "",
+        "groups": [
+          "@AD_00_LaunchNflows",
+          "@Administrator"
+        ],
+        "lineNo": 5.0,
+        "name": "Launching Nflows application",
+        "referece": "src/main/resources/scenarios/Administrator.feature",
+        "resultFileName": "LaunchingNflowsApplication",
+        "sheetName": "Environment",
+        "sign": "src.main.resources.scenarios.Administrator.feature.Launching Nflows application( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1611037055795,
+      "duration": 17762,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "username": "Sundar",
+          "password": "Sundar@123",
+          "__index": 1
+        }
+      ],
+      "metaData": {
+        "datafile": "src/main/resources/data/testData.xls",
+        "description": "",
+        "groups": [
+          "@AD_01_NflowsLogin",
+          "@Administrator"
+        ],
+        "lineNo": 10,
+        "name": "Login to Nflows",
+        "referece": "src/main/resources/scenarios/Administrator.feature",
+        "resultFileName": "LoginToNflows",
+        "sheetName": "Nflows_Login",
+        "sign": "src.main.resources.scenarios.Administrator.feature.Login to Nflows( java.util.Map)[pri:1001, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]"
+      },
+      "dependsOn": [],
+      "startTime": 1611037074548,
+      "duration": 14320,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

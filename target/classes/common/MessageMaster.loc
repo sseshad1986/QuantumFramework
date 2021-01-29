@@ -1,0 +1,16 @@
+#locator repository for message master
+#search.text.box = {\"locator\":\"name=q\",\"desc\":\"Search Text Box\"}
+
+
+nflows.messagemaster.newMessage.button =//button[@class='btn btn-default ng-scope']
+nFlows.messagemaster.messageType.Select = //*[@title='Select']
+nFlows.messagemaster.messageType.Error = //span[contains(text(),'Error')]
+nFlows.messagemaster.messageType.Warning = //span[contains(text(),'Warning')]
+nFlows.messagemaster.message.edit = //*[@data-ng-model='_message.msg_text_value_1']
+nFlows.messagemaster.resolution.edit = //*[@data-ng-model='_message.msg_resolutions_1']
+nFlows.messagemaster.reason.edit = //*[@data-ng-model='_message.msg_reasons_1']
+nFlows.messagemaster.save.button = //button[contains(text(),'Save')]
+nFlows.messagemaster.messageSearch.edit = //input[@id='searchBox']
+nFlows.messagemaster.Editmessage.button = //div[@class='WRITE ng-scope']
+nFlows.messagemaster.Gridmessage.table = //div[@class='ngCellText ng-scope col2 colt2']//span[@class='ng-binding']
+

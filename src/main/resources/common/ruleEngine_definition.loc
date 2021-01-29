@@ -1,0 +1,85 @@
+#Locator for Rule Engine :
+
+nflows.entity.CreateRule.RuleName =//input[contains(@data-ng-init,'rule.rule_name')]
+nflows.entity.CreateRule.RuleType =//div[@class='col-sm-4 padding-zero']//div//button[@class='dropdown-toggle ng-binding ng-scope'][contains(text(),'Select')]
+nflows.entity.CreateRule.RuleTypeValidation=//div[@class='panel panel-default panel-border-bottom panel-border-top risk-data-entry']//li[3]//a[1]
+nflows.entity.CreateRule.RuleTypeEnrichment=//div[@class='panel panel-default panel-border-bottom panel-border-top risk-data-entry']//li[4]//a[1]
+
+nflows.entity.CreateRule.RuleExecutionType=//label[contains(text(),'Rule execution')]//following::button[1]
+nflows.entity.CreateRule.RuleExecutionTypeOnNew=//span[contains(text(),'On New')]
+nflows.entity.CreateRule.RuleExecutionTypeOnUpdate=//span[contains(text(),'On Update')]
+nflows.entity.CreateRule.RuleExecutionlabel=//label[contains(text(),'Rule execution')]
+
+nflows.entity.CreateRule.RuleTypeFilter=//div[@class='panel panel-default panel-border-bottom panel-border-top risk-data-entry']//li[5]//a[1]
+nflows.entity.CreateRule.RuleDesc =//div/textarea[contains(@data-ng-model,'rule.rule_description')]
+nflows.entity.CreateRule.RuleDesclabel=//label[contains(text(),'Description')]
+nflows.entity.CreateRule.RuleSearch =//input[contains(@data-ng-init,'tree_search')]
+
+nflows.entity.CreateRule.RuleValidationFieldDrpdwn=//body[@class='animated fadeIn ng-scope']//div[@id='defaultContainer']//div[@class='col-sm-12 padding-zero']//div[@class='col-sm-12 padding-zero']//div[1]//div[1]//div[1]//div[1]//button[1]
+nflows.entity.CreateRule.RuleValidationFieldDrpdwnSearchValue=//div[@class='dropdown-header']//input[@placeholder='Search...']
+nflows.entity.CreateRule.RuleValidationFieldDrpdwnSelectValue=//span[@class='ng-scope ng-binding']
+nflows.entity.CreateRule.RuleValidationMessageDrpdwn=//div[@class='col-sm-4 padding-right-zero']//div[@class='ng-isolate-scope']//div[@class='multiselect-parent btn-group dropdown-multiselect']//div//button[@class='dropdown-toggle ng-binding ng-scope'][contains(text(),'Select')]
+nflows.entity.CreateRule.RuleValidationMessageDrpdwnSearchValue=//div[@class='dropdown-header']//input[@placeholder='Search...']
+nflows.entity.CreateRule.RuleValidationMessageDrpdwnSelectValue=//span[@class='ng-scope ng-binding']
+
+# Locator for entity grouping rule
+nflows.entity.GroupingRule.rulePurposeDrpdwn=//label[text()='Entity Grouping Rule Purpose']/following::button[1]
+nflows.entity.GroupingRule.fieldGrpDrpdwn=//label[text()='FieldGroup']/following::button[1]
+
+# Locator for Rule Definition
+nflows.entity.CreateRule.RuleDefinitionArea=//*[@id="definitionArea"]
+
+# Locator for Rule Enrichment
+nflows.entity.CreateRule.RuleEnrichmentArea=//div[@ng-repeat='dropzone in models.enrichment']
+nflows.entity.CreateRule.RuleFilterArea=//div[@id='enrichmentArea']
+
+nflows.entity.Rule.SaveRule=//button[@class='btn btn-default margin-right-minus-2']
+nflows.entity.Rule.CancelRule=//button[text()='Validate']/preceding::button[text()='Cancel']
+nflows.entity.Rule.CancelYesRule=//button[@class='btn btn-red innerpage-button-height']
+nflows.entity.Rule.CancelNoRule=//button[@class='btn btn-grey innerpage-button-height']
+
+nflows.entity.CreateRule.singleline=//span[contains(text(),'SingleLine')]
+nflows.entity.CreateRule.multiline=//span[contains(text(),'MultiLine')]
+nflows.entity.CreateRule.number=//span[contains(text(),'Number')]
+nflows.entity.CreateRule.date=//span[text()='Date']
+nflows.entity.CreateRule.dropdown=//*[@id="tree-root"]//span[text()='Dropdown']
+nflows.entity.CreateRule.populatedropdow=//span[contains(text(),'Populate Dropdown')]
+
+nflows.entity.CreateRule.chooseSelectExternalDropdown=//div[@class='ng-scope']//div[@class='ng-isolate-scope']//div[@class='multiselect-parent btn-group dropdown-multiselect']//div//button[@class='dropdown-toggle ng-binding ng-scope'][contains(text(),'Select')]
+nflows.entity.CreateRule.typeExternalsearchDropdwn=//div[@class='dropdown-header']//input[@placeholder='Search...']
+nflows.entity.CreateRule.SelectTypeexternalDropdwn=//span[@class='ng-scope ng-binding']
+nflows.entity.CreateRule.popoverExternalDropdwn=//div[@class='popover-content']
+
+# Locator for Date Picker
+nflows.entity.CreateRule.clickDatepicker=//img[@class='ui-datepicker-trigger']
+nflows.entity.CreateRule.selectMonthfromDatepicker=//select[@class='ui-datepicker-month']
+nflows.entity.CreateRule.selectYearfromDatepicker=//select[@class='ui-datepicker-year']
+nflows.entity.CreateRule.SelectDate=//a[text()='31']
+
+nflows.entity.CreateRule.valueTextbx= //input[@placeholder='Value']
+nflows.entity.CreateRule.multivalueTextbx=//textarea[@placeholder='Value']
+nflows.entity.CreateRule.okBtnValue=//input[@class='btn btn-default innerpage-button-height']
+nflows.entity.CreateRule.closeBtnValue=//input[@class='btn btn-grey innerpage-button-height']
+
+nflows.entity.Rule.backButton=//button[@id='goBack']
+nflows.entity.ruleGrid.searchBx=//input[@id='searchBox']
+
+# Locator for Rule Group
+nflows.entity.ruleGroup.selectDrop=//select[@id='fld_0']
+nflows.entity.ruleGroup.ruleGroup=//span[contains(text(),'Rule Group')]
+
+# Locator for Functions
+nflows.entity.functions.popTextbx=//input[@placeholder='Value']
+nflows.entity.functions.popOkBtn=//input[contains(@class,'button') and @value='OK']
+nflows.entity.functions.popCancelBtn=//input[contains(@class,'button') and @value='Close']
+
+# Locator for message pop up
+nflows.entity.ruledef.popupBox=//button[contains(text(),'Expand All')]
+nflows.entity.ruledef.popupCloseBtn=//div[@id='modalMsg']//button[contains(text(),'Close')]
+
+# Locator for cancel record pop up
+nflows.entity.ruledef.cancelPopUp=//div[@id='modalCancelRecord']//div[@class='modal-content']
+nflows.entity.ruledef.cancelYes=//button[contains(text(),'Yes')]
+
+# Locator for rule search in grid 
+nflows.entity.ruledef.searchGrid=//input[@id='searchBox']

@@ -1,0 +1,14 @@
+#locator repository for Login page
+#search.text.box = {\"locator\":\"name=q\",\"desc\":\"Search Text Box\"}
+
+nflows.dashboarddefinition.gridviewbutton = //i[@class='fa fa-th']
+nflows.dashboarddefinition.searchbox = //input[@id='searchBox']
+nflows.dashboarddefinition.searchresultedit = //div[@class='ng-scope WRITE']
+nflows.dashboarddefinition.ellipsisbutton = //i[@class='fa fa-ellipsis-h']
+nflows.dashboarddefinition.distributeequally = //a[contains(text(),'Distribute equally in all rows')]
+nflows.dashboarddefinition.loadingicon = //div[@id='loader']//div[@class='sk-circle12 sk-child']
+nflows.dashboarddefinition.cancelbutton = //button[@class='btn btn-grey margin-right-minus-2'][contains(text(),'Cancel')]
+nflows.dashboarddefinition.ellipsisrowbutton = //section[@id='_id12']//i[@class='fa fa-ellipsis-v']
+nflows.dashboarddefinition.distributeequallyrowbutton = //div[contains(@class,'dropdown open')]//a[@class='panel-fullscreen-btn'][contains(text(),'Distribute equally in this row')]
+nflows.dashboarddefinition.searchresult = //div[@class='ui-grid-cell ng-scope ui-grid-coluiGrid-0009']//div[@class='ui-grid-cell-contents ng-scope']
+nflows.dashboarddefinition.deletewidget = //div[contains(@class,'dropdown open')]//a[@class='panel-fullscreen-btn'][contains(text(),'Delete')]

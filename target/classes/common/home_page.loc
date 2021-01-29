@@ -1,0 +1,10 @@
+#locator repository for trac home page
+nflows.logo=//img[contains(@class,'vertical-align')]
+nflows.menu.button =//div[@id='nav-icon1']
+nflows.home.text=//div[@class='row']//span
+nflows.menuSearch.txtbx=//input[@id='myInput']
+nflows.searchText.lnk=//a[contains(text(),'Entity Definition')]
+nflows.message.lnk=//img[@class='header-message-icon']
+nflows.image.lnk=//a[@data-target='#profile']/i
+nflows.logout.lnk=//a[contains(text(),'Logout')]
+nflows.newButton = //button[contains(text(),'%s')]

@@ -1,0 +1,5731 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "navigate_to_defined_menu",
+      "args": [
+        "[Roles]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='loader']//div[@class='sk-circle12 sk-child'], using=xpath}"
+          ],
+          "result": "id: 7a22256a-8d6c-4e09-b706-8a36f4181eff",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@id='loader']//div[@class='sk-circle12 sk-child']",
+            "{\"id\":\"7a22256a-8d6c-4e09-b706-8a36f4181eff\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 425504c3-bc2c-4727-9097-4e5c457b60e4",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"425504c3-bc2c-4727-9097-4e5c457b60e4\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 37
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 425504c3-bc2c-4727-9097-4e5c457b60e4",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementEnabled",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"425504c3-bc2c-4727-9097-4e5c457b60e4\"}"
+          ],
+          "result": "isElementEnabled:true",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 425504c3-bc2c-4727-9097-4e5c457b60e4",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"425504c3-bc2c-4727-9097-4e5c457b60e4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 556
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: fa249ee2-934a-40fb-838c-0615bf4e708a",
+          "subLogs": [],
+          "duration": 7
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"fa249ee2-934a-40fb-838c-0615bf4e708a\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: fa249ee2-934a-40fb-838c-0615bf4e708a",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"fa249ee2-934a-40fb-838c-0615bf4e708a\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: fa249ee2-934a-40fb-838c-0615bf4e708a",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"fa249ee2-934a-40fb-838c-0615bf4e708a\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: fa249ee2-934a-40fb-838c-0615bf4e708a",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"fa249ee2-934a-40fb-838c-0615bf4e708a\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: fa249ee2-934a-40fb-838c-0615bf4e708a",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"fa249ee2-934a-40fb-838c-0615bf4e708a\",\"value\":[\"Roles\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 214
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[text()='Roles'], using=xpath}"
+          ],
+          "result": "id: 69ac4ab3-be07-4c28-8144-e58348450cac",
+          "subLogs": [],
+          "duration": 54
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[text()='Roles']",
+            "{\"id\":\"69ac4ab3-be07-4c28-8144-e58348450cac\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[text()='Roles'], using=xpath}"
+          ],
+          "result": "id: 69ac4ab3-be07-4c28-8144-e58348450cac",
+          "subLogs": [],
+          "duration": 53
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[text()='Roles']",
+            "{\"id\":\"69ac4ab3-be07-4c28-8144-e58348450cac\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 47
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[text()='Roles']",
+            "{\"id\":\"69ac4ab3-be07-4c28-8144-e58348450cac\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[text()='Roles']",
+            "{\"id\":\"69ac4ab3-be07-4c28-8144-e58348450cac\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 2907
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//img[contains(@class,'vertical-align')], using=xpath}"
+          ],
+          "result": "id: 640fca72-2509-4362-9fad-bf9a09064a8d",
+          "subLogs": [],
+          "duration": 36
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //img[contains(@class,'vertical-align')]",
+            "{\"id\":\"640fca72-2509-4362-9fad-bf9a09064a8d\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@id='loader']//div[@class='sk-circle12 sk-child'], using=xpath}"
+          ],
+          "result": "[id: 264dea97-3eeb-46bf-9040-0da16e274f38]",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='loader']//div[@class='sk-circle12 sk-child'], using=xpath}"
+          ],
+          "result": "id: 264dea97-3eeb-46bf-9040-0da16e274f38",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@id='loader']//div[@class='sk-circle12 sk-child']",
+            "{\"id\":\"264dea97-3eeb-46bf-9040-0da16e274f38\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='loader']//div[@class='sk-circle12 sk-child'], using=xpath}"
+          ],
+          "result": "id: 264dea97-3eeb-46bf-9040-0da16e274f38",
+          "subLogs": [],
+          "duration": 3
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@id='loader']//div[@class='sk-circle12 sk-child']",
+            "{\"id\":\"264dea97-3eeb-46bf-9040-0da16e274f38\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 34
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "Verify_landing_Page_Grid",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//button[@class='btn btn-default'], using=xpath}"
+          ],
+          "result": "[id: d1bcb4bc-99ec-42f8-865d-09a7bf291568]",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//button[@class='btn btn-default'], using=xpath}"
+          ],
+          "result": "id: d1bcb4bc-99ec-42f8-865d-09a7bf291568",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //button[@class='btn btn-default']",
+            "{\"id\":\"d1bcb4bc-99ec-42f8-865d-09a7bf291568\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//button[@class='btn btn-default'], using=xpath}"
+          ],
+          "result": "id: d1bcb4bc-99ec-42f8-865d-09a7bf291568",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //button[@class='btn btn-default']",
+            "{\"id\":\"d1bcb4bc-99ec-42f8-865d-09a7bf291568\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 38
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "Search_Roles_And_edit",
+      "args": [
+        "[Automation]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='searchBox'], using=xpath}"
+          ],
+          "result": "id: 84e319fa-e411-4038-ad36-bfca42c3a507",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='searchBox']",
+            "{\"id\":\"84e319fa-e411-4038-ad36-bfca42c3a507\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='searchBox'], using=xpath}"
+          ],
+          "result": "id: 84e319fa-e411-4038-ad36-bfca42c3a507",
+          "subLogs": [],
+          "duration": 2
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //input[@id='searchBox']",
+            "{\"id\":\"84e319fa-e411-4038-ad36-bfca42c3a507\",\"value\":[\"Automation\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 158
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='searchBox'], using=xpath}"
+          ],
+          "result": "id: 84e319fa-e411-4038-ad36-bfca42c3a507",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //input[@id='searchBox']",
+            "{\"id\":\"84e319fa-e411-4038-ad36-bfca42c3a507\",\"value\":[{\"codePoint\":57351}]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 63
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=(//span[contains(text(),'Automation')]), using=xpath}"
+          ],
+          "result": "[id: 9746f2b4-5669-4aea-99fe-f33dcdee04dd]",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@class='WRITE ng-scope'], using=xpath}"
+          ],
+          "result": "id: 75a84567-9043-49e3-bb54-83bdad9c2d94",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@class='WRITE ng-scope']",
+            "{\"id\":\"75a84567-9043-49e3-bb54-83bdad9c2d94\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 67
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "menuLevelAccess",
+      "args": [
+        "[WRITE]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"menu_access\"]/div/div/div[1]/div[2]/input, using=xpath}"
+          ],
+          "result": "id: 3b73bb28-1ffa-47c2-8c22-3482a21dea52",
+          "subLogs": [],
+          "duration": 38
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@id=\"menu_access\"]/div/div/div[1]/div[2]/input",
+            "{\"id\":\"3b73bb28-1ffa-47c2-8c22-3482a21dea52\",\"value\":[\"Entity Definition\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 392
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"menu_access\"]/div/div/div[1]/div[2]/input, using=xpath}"
+          ],
+          "result": "id: 3b73bb28-1ffa-47c2-8c22-3482a21dea52",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@id=\"menu_access\"]/div/div/div[1]/div[2]/input",
+            "{\"id\":\"3b73bb28-1ffa-47c2-8c22-3482a21dea52\",\"value\":[{\"codePoint\":57351}]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_0\"]/div[2]/div/div[2]/select, using=xpath}"
+          ],
+          "result": "id: bdff5f52-b8b6-4e08-804b-94e0558f6bde",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "getElementTagName",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_0\"]/div[2]/div/div[2]/select",
+            "{\"id\":\"bdff5f52-b8b6-4e08-804b-94e0558f6bde\"}"
+          ],
+          "result": "getElementTagName:select",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_0\"]/div[2]/div/div[2]/select, using=xpath}"
+          ],
+          "result": "id: bdff5f52-b8b6-4e08-804b-94e0558f6bde",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_0\"]/div[2]/div/div[2]/select",
+            "{\"name\":\"multiple\",\"id\":\"bdff5f52-b8b6-4e08-804b-94e0558f6bde\"}"
+          ],
+          "result": "getElementAttribute:null",
+          "subLogs": [],
+          "duration": 78
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_0\"]/div[2]/div/div[2]/select, using=xpath}"
+          ],
+          "result": "id: bdff5f52-b8b6-4e08-804b-94e0558f6bde",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_0\"]/div[2]/div/div[2]/select",
+            "{\"using\":\"xpath\",\"id\":\"bdff5f52-b8b6-4e08-804b-94e0558f6bde\",\"value\":\".//option[@value = \\\"WRITE\\\"]\"}"
+          ],
+          "result": "findChildElements:[id: ebfc485e-f85f-49d8-a420-bc9ffaffb30d]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementSelected",
+          "args": [
+            "id: ebfc485e-f85f-49d8-a420-bc9ffaffb30d",
+            "{\"id\":\"ebfc485e-f85f-49d8-a420-bc9ffaffb30d\"}"
+          ],
+          "result": "isElementSelected:true",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"menu_access\"]/div/div/div[1]/div[2]/input, using=xpath}"
+          ],
+          "result": "id: 3b73bb28-1ffa-47c2-8c22-3482a21dea52",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.xpath: //*[@id=\"menu_access\"]/div/div/div[1]/div[2]/input",
+            "{\"id\":\"3b73bb28-1ffa-47c2-8c22-3482a21dea52\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 321
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"basemenu\"]/div[1]/div[1]/div/div[1]/h4/a/img, using=xpath}"
+          ],
+          "result": "id: 0bb7485e-9114-487a-8126-d272f549f930",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id=\"basemenu\"]/div[1]/div[1]/div/div[1]/h4/a/img",
+            "{\"id\":\"0bb7485e-9114-487a-8126-d272f549f930\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 77
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"basemenu\"]/div[2]/div[1]/div/div[1]/h4/a/img, using=xpath}"
+          ],
+          "result": "id: 3af31ab6-47c8-4beb-9b96-64e79cb3a68b",
+          "subLogs": [],
+          "duration": 38
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id=\"basemenu\"]/div[2]/div[1]/div/div[1]/h4/a/img",
+            "{\"id\":\"3af31ab6-47c8-4beb-9b96-64e79cb3a68b\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 68
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='collapse_1']/div[2]/div/div[2]/select, using=xpath}"
+          ],
+          "result": "id: 30f1feb3-c680-4b90-af59-eb36e2f1d32a",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "getElementTagName",
+          "args": [
+            "By.xpath: //*[@id='collapse_1']/div[2]/div/div[2]/select",
+            "{\"id\":\"30f1feb3-c680-4b90-af59-eb36e2f1d32a\"}"
+          ],
+          "result": "getElementTagName:select",
+          "subLogs": [],
+          "duration": 7
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='collapse_1']/div[2]/div/div[2]/select, using=xpath}"
+          ],
+          "result": "id: 30f1feb3-c680-4b90-af59-eb36e2f1d32a",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: //*[@id='collapse_1']/div[2]/div/div[2]/select",
+            "{\"name\":\"multiple\",\"id\":\"30f1feb3-c680-4b90-af59-eb36e2f1d32a\"}"
+          ],
+          "result": "getElementAttribute:null",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='collapse_1']/div[2]/div/div[2]/select, using=xpath}"
+          ],
+          "result": "id: 30f1feb3-c680-4b90-af59-eb36e2f1d32a",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "By.xpath: //*[@id='collapse_1']/div[2]/div/div[2]/select",
+            "{\"using\":\"xpath\",\"id\":\"30f1feb3-c680-4b90-af59-eb36e2f1d32a\",\"value\":\".//option[@value = \\\"WRITE\\\"]\"}"
+          ],
+          "result": "findChildElements:[id: e4c6f12c-9cfc-4c43-bc06-550ffc2674ec]",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "isElementSelected",
+          "args": [
+            "id: e4c6f12c-9cfc-4c43-bc06-550ffc2674ec",
+            "{\"id\":\"e4c6f12c-9cfc-4c43-bc06-550ffc2674ec\"}"
+          ],
+          "result": "isElementSelected:true",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"basemenu\"]/div[2]/div[1]/div/div[1]/h4/a/img, using=xpath}"
+          ],
+          "result": "id: 3af31ab6-47c8-4beb-9b96-64e79cb3a68b",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id=\"basemenu\"]/div[2]/div[1]/div/div[1]/h4/a/img",
+            "{\"id\":\"3af31ab6-47c8-4beb-9b96-64e79cb3a68b\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"basemenu\"]/div[3]/div[1]/div/div[1]/h4/a/img, using=xpath}"
+          ],
+          "result": "id: 76f50271-05e3-4870-9dc1-230d96084a3d",
+          "subLogs": [],
+          "duration": 46
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id=\"basemenu\"]/div[3]/div[1]/div/div[1]/h4/a/img",
+            "{\"id\":\"76f50271-05e3-4870-9dc1-230d96084a3d\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 103
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_2\"]/div[2]/div[1]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: ba20c195-42d2-4d37-a63f-2a13aa102adc",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "getElementTagName",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_2\"]/div[2]/div[1]/div[2]/select",
+            "{\"id\":\"ba20c195-42d2-4d37-a63f-2a13aa102adc\"}"
+          ],
+          "result": "getElementTagName:select",
+          "subLogs": [],
+          "duration": 5
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_2\"]/div[2]/div[1]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: ba20c195-42d2-4d37-a63f-2a13aa102adc",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_2\"]/div[2]/div[1]/div[2]/select",
+            "{\"name\":\"multiple\",\"id\":\"ba20c195-42d2-4d37-a63f-2a13aa102adc\"}"
+          ],
+          "result": "getElementAttribute:null",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_2\"]/div[2]/div[1]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: ba20c195-42d2-4d37-a63f-2a13aa102adc",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_2\"]/div[2]/div[1]/div[2]/select",
+            "{\"using\":\"xpath\",\"id\":\"ba20c195-42d2-4d37-a63f-2a13aa102adc\",\"value\":\".//option[@value = \\\"WRITE\\\"]\"}"
+          ],
+          "result": "findChildElements:[id: eced27f7-0c20-4c5d-9605-98a780e798de]",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "isElementSelected",
+          "args": [
+            "id: eced27f7-0c20-4c5d-9605-98a780e798de",
+            "{\"id\":\"eced27f7-0c20-4c5d-9605-98a780e798de\"}"
+          ],
+          "result": "isElementSelected:true",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_2\"]/div[2]/div[2]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: 13b63514-9b17-44c2-b936-62a6776fd0e3",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "getElementTagName",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_2\"]/div[2]/div[2]/div[2]/select",
+            "{\"id\":\"13b63514-9b17-44c2-b936-62a6776fd0e3\"}"
+          ],
+          "result": "getElementTagName:select",
+          "subLogs": [],
+          "duration": 5
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_2\"]/div[2]/div[2]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: 13b63514-9b17-44c2-b936-62a6776fd0e3",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_2\"]/div[2]/div[2]/div[2]/select",
+            "{\"name\":\"multiple\",\"id\":\"13b63514-9b17-44c2-b936-62a6776fd0e3\"}"
+          ],
+          "result": "getElementAttribute:null",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_2\"]/div[2]/div[2]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: 13b63514-9b17-44c2-b936-62a6776fd0e3",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_2\"]/div[2]/div[2]/div[2]/select",
+            "{\"using\":\"xpath\",\"id\":\"13b63514-9b17-44c2-b936-62a6776fd0e3\",\"value\":\".//option[@value = \\\"WRITE\\\"]\"}"
+          ],
+          "result": "findChildElements:[id: 8ee9e73f-ccd7-4547-93aa-0b6696fcf21c]",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "isElementSelected",
+          "args": [
+            "id: 8ee9e73f-ccd7-4547-93aa-0b6696fcf21c",
+            "{\"id\":\"8ee9e73f-ccd7-4547-93aa-0b6696fcf21c\"}"
+          ],
+          "result": "isElementSelected:true",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"basemenu\"]/div[3]/div[1]/div/div[1]/h4/a/img, using=xpath}"
+          ],
+          "result": "id: 76f50271-05e3-4870-9dc1-230d96084a3d",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id=\"basemenu\"]/div[3]/div[1]/div/div[1]/h4/a/img",
+            "{\"id\":\"76f50271-05e3-4870-9dc1-230d96084a3d\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 47
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"basemenu\"]/div[4]/div[1]/div/div[1]/h4/a/img, using=xpath}"
+          ],
+          "result": "id: e2821ddc-1f39-4dcc-b9af-c4deeb875853",
+          "subLogs": [],
+          "duration": 37
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id=\"basemenu\"]/div[4]/div[1]/div/div[1]/h4/a/img",
+            "{\"id\":\"e2821ddc-1f39-4dcc-b9af-c4deeb875853\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 108
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_3\"]/div[2]/div/div[2]/select, using=xpath}"
+          ],
+          "result": "id: d165e848-fbd6-4710-9b23-d0c1c0b675a3",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "getElementTagName",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_3\"]/div[2]/div/div[2]/select",
+            "{\"id\":\"d165e848-fbd6-4710-9b23-d0c1c0b675a3\"}"
+          ],
+          "result": "getElementTagName:select",
+          "subLogs": [],
+          "duration": 5
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_3\"]/div[2]/div/div[2]/select, using=xpath}"
+          ],
+          "result": "id: d165e848-fbd6-4710-9b23-d0c1c0b675a3",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_3\"]/div[2]/div/div[2]/select",
+            "{\"name\":\"multiple\",\"id\":\"d165e848-fbd6-4710-9b23-d0c1c0b675a3\"}"
+          ],
+          "result": "getElementAttribute:null",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_3\"]/div[2]/div/div[2]/select, using=xpath}"
+          ],
+          "result": "id: d165e848-fbd6-4710-9b23-d0c1c0b675a3",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_3\"]/div[2]/div/div[2]/select",
+            "{\"using\":\"xpath\",\"id\":\"d165e848-fbd6-4710-9b23-d0c1c0b675a3\",\"value\":\".//option[@value = \\\"WRITE\\\"]\"}"
+          ],
+          "result": "findChildElements:[id: 002b0fb9-9d6d-4fe5-8a86-596b8154de27]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "isElementSelected",
+          "args": [
+            "id: 002b0fb9-9d6d-4fe5-8a86-596b8154de27",
+            "{\"id\":\"002b0fb9-9d6d-4fe5-8a86-596b8154de27\"}"
+          ],
+          "result": "isElementSelected:true",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"basemenu\"]/div[4]/div[1]/div/div[1]/h4/a/img, using=xpath}"
+          ],
+          "result": "id: e2821ddc-1f39-4dcc-b9af-c4deeb875853",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id=\"basemenu\"]/div[4]/div[1]/div/div[1]/h4/a/img",
+            "{\"id\":\"e2821ddc-1f39-4dcc-b9af-c4deeb875853\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 35
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"basemenu\"]/div[10]/div[1]/div/div[1]/h4/a, using=xpath}"
+          ],
+          "result": "id: 5a109142-d1b0-4f47-ae0f-efac38ee8777",
+          "subLogs": [],
+          "duration": 52
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id=\"basemenu\"]/div[10]/div[1]/div/div[1]/h4/a",
+            "{\"id\":\"5a109142-d1b0-4f47-ae0f-efac38ee8777\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 120
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[2]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: 86dfe3fd-fc9c-4483-85ea-30c7a409e5fa",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "getElementTagName",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[2]/div[2]/select",
+            "{\"id\":\"86dfe3fd-fc9c-4483-85ea-30c7a409e5fa\"}"
+          ],
+          "result": "getElementTagName:select",
+          "subLogs": [],
+          "duration": 6
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[2]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: 86dfe3fd-fc9c-4483-85ea-30c7a409e5fa",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[2]/div[2]/select",
+            "{\"name\":\"multiple\",\"id\":\"86dfe3fd-fc9c-4483-85ea-30c7a409e5fa\"}"
+          ],
+          "result": "getElementAttribute:null",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[2]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: 86dfe3fd-fc9c-4483-85ea-30c7a409e5fa",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[2]/div[2]/select",
+            "{\"using\":\"xpath\",\"id\":\"86dfe3fd-fc9c-4483-85ea-30c7a409e5fa\",\"value\":\".//option[@value = \\\"WRITE\\\"]\"}"
+          ],
+          "result": "findChildElements:[id: d1248dbc-4ed6-4fd6-83fd-97c9229a4019]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "isElementSelected",
+          "args": [
+            "id: d1248dbc-4ed6-4fd6-83fd-97c9229a4019",
+            "{\"id\":\"d1248dbc-4ed6-4fd6-83fd-97c9229a4019\"}"
+          ],
+          "result": "isElementSelected:true",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[1]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: 7fe97a55-a80c-4c68-9a86-3ebbd1ee7818",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "getElementTagName",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[1]/div[2]/select",
+            "{\"id\":\"7fe97a55-a80c-4c68-9a86-3ebbd1ee7818\"}"
+          ],
+          "result": "getElementTagName:select",
+          "subLogs": [],
+          "duration": 4
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[1]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: 7fe97a55-a80c-4c68-9a86-3ebbd1ee7818",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[1]/div[2]/select",
+            "{\"name\":\"multiple\",\"id\":\"7fe97a55-a80c-4c68-9a86-3ebbd1ee7818\"}"
+          ],
+          "result": "getElementAttribute:null",
+          "subLogs": [],
+          "duration": 6
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[1]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: 7fe97a55-a80c-4c68-9a86-3ebbd1ee7818",
+          "subLogs": [],
+          "duration": 4
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[1]/div[2]/select",
+            "{\"using\":\"xpath\",\"id\":\"7fe97a55-a80c-4c68-9a86-3ebbd1ee7818\",\"value\":\".//option[@value = \\\"WRITE\\\"]\"}"
+          ],
+          "result": "findChildElements:[id: ac30dd98-a97b-49d1-9869-d5aa75e55f2d]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementSelected",
+          "args": [
+            "id: ac30dd98-a97b-49d1-9869-d5aa75e55f2d",
+            "{\"id\":\"ac30dd98-a97b-49d1-9869-d5aa75e55f2d\"}"
+          ],
+          "result": "isElementSelected:true",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[1]/div[1], using=xpath}"
+          ],
+          "result": "id: 640637ef-5f35-42b1-a3ff-9309b4af388e",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementTagName",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[1]/div[1]",
+            "{\"id\":\"640637ef-5f35-42b1-a3ff-9309b4af388e\"}"
+          ],
+          "result": "getElementTagName:div",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[10]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: 813fa536-9a0c-4625-8fcf-c8b52aa51725",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "getElementTagName",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[10]/div[2]/select",
+            "{\"id\":\"813fa536-9a0c-4625-8fcf-c8b52aa51725\"}"
+          ],
+          "result": "getElementTagName:select",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[10]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: 813fa536-9a0c-4625-8fcf-c8b52aa51725",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[10]/div[2]/select",
+            "{\"name\":\"multiple\",\"id\":\"813fa536-9a0c-4625-8fcf-c8b52aa51725\"}"
+          ],
+          "result": "getElementAttribute:null",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[10]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: 813fa536-9a0c-4625-8fcf-c8b52aa51725",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[10]/div[2]/select",
+            "{\"using\":\"xpath\",\"id\":\"813fa536-9a0c-4625-8fcf-c8b52aa51725\",\"value\":\".//option[@value = \\\"WRITE\\\"]\"}"
+          ],
+          "result": "findChildElements:[]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[11]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: 9b1e77f3-3326-4d1d-b1b1-7da2ddcc8eb6",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementTagName",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[11]/div[2]/select",
+            "{\"id\":\"9b1e77f3-3326-4d1d-b1b1-7da2ddcc8eb6\"}"
+          ],
+          "result": "getElementTagName:select",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[11]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: 9b1e77f3-3326-4d1d-b1b1-7da2ddcc8eb6",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[11]/div[2]/select",
+            "{\"name\":\"multiple\",\"id\":\"9b1e77f3-3326-4d1d-b1b1-7da2ddcc8eb6\"}"
+          ],
+          "result": "getElementAttribute:null",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[11]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: 9b1e77f3-3326-4d1d-b1b1-7da2ddcc8eb6",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[11]/div[2]/select",
+            "{\"using\":\"xpath\",\"id\":\"9b1e77f3-3326-4d1d-b1b1-7da2ddcc8eb6\",\"value\":\".//option[@value = \\\"WRITE\\\"]\"}"
+          ],
+          "result": "findChildElements:[id: aa863d92-5f62-4af9-b438-0c83f2dedd56]",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "isElementSelected",
+          "args": [
+            "id: aa863d92-5f62-4af9-b438-0c83f2dedd56",
+            "{\"id\":\"aa863d92-5f62-4af9-b438-0c83f2dedd56\"}"
+          ],
+          "result": "isElementSelected:true",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[14]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: ba3cd02d-3920-436e-a9e8-bda0bfd50939",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementTagName",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[14]/div[2]/select",
+            "{\"id\":\"ba3cd02d-3920-436e-a9e8-bda0bfd50939\"}"
+          ],
+          "result": "getElementTagName:select",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[14]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: ba3cd02d-3920-436e-a9e8-bda0bfd50939",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[14]/div[2]/select",
+            "{\"name\":\"multiple\",\"id\":\"ba3cd02d-3920-436e-a9e8-bda0bfd50939\"}"
+          ],
+          "result": "getElementAttribute:null",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[14]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: ba3cd02d-3920-436e-a9e8-bda0bfd50939",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[14]/div[2]/select",
+            "{\"using\":\"xpath\",\"id\":\"ba3cd02d-3920-436e-a9e8-bda0bfd50939\",\"value\":\".//option[@value = \\\"WRITE\\\"]\"}"
+          ],
+          "result": "findChildElements:[id: 333bc5e0-0d6f-4feb-9a3a-37ab35c16c76]",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "isElementSelected",
+          "args": [
+            "id: 333bc5e0-0d6f-4feb-9a3a-37ab35c16c76",
+            "{\"id\":\"333bc5e0-0d6f-4feb-9a3a-37ab35c16c76\"}"
+          ],
+          "result": "isElementSelected:true",
+          "subLogs": [],
+          "duration": 69
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[6]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: c5fef0fa-5edc-4e70-96fd-4eead90315f3",
+          "subLogs": [],
+          "duration": 62
+        },
+        {
+          "commandName": "getElementTagName",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[6]/div[2]/select",
+            "{\"id\":\"c5fef0fa-5edc-4e70-96fd-4eead90315f3\"}"
+          ],
+          "result": "getElementTagName:select",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[6]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: c5fef0fa-5edc-4e70-96fd-4eead90315f3",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[6]/div[2]/select",
+            "{\"name\":\"multiple\",\"id\":\"c5fef0fa-5edc-4e70-96fd-4eead90315f3\"}"
+          ],
+          "result": "getElementAttribute:null",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[6]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: c5fef0fa-5edc-4e70-96fd-4eead90315f3",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[6]/div[2]/select",
+            "{\"using\":\"xpath\",\"id\":\"c5fef0fa-5edc-4e70-96fd-4eead90315f3\",\"value\":\".//option[@value = \\\"WRITE\\\"]\"}"
+          ],
+          "result": "findChildElements:[id: 93ad844c-8a0f-4f5a-86bc-bef0f3eda7a3]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementSelected",
+          "args": [
+            "id: 93ad844c-8a0f-4f5a-86bc-bef0f3eda7a3",
+            "{\"id\":\"93ad844c-8a0f-4f5a-86bc-bef0f3eda7a3\"}"
+          ],
+          "result": "isElementSelected:true",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[4]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: 9d1de81a-973c-4020-9d7f-c1eacb9ea0ea",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "getElementTagName",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[4]/div[2]/select",
+            "{\"id\":\"9d1de81a-973c-4020-9d7f-c1eacb9ea0ea\"}"
+          ],
+          "result": "getElementTagName:select",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[4]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: 9d1de81a-973c-4020-9d7f-c1eacb9ea0ea",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[4]/div[2]/select",
+            "{\"name\":\"multiple\",\"id\":\"9d1de81a-973c-4020-9d7f-c1eacb9ea0ea\"}"
+          ],
+          "result": "getElementAttribute:null",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[4]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: 9d1de81a-973c-4020-9d7f-c1eacb9ea0ea",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[4]/div[2]/select",
+            "{\"using\":\"xpath\",\"id\":\"9d1de81a-973c-4020-9d7f-c1eacb9ea0ea\",\"value\":\".//option[@value = \\\"WRITE\\\"]\"}"
+          ],
+          "result": "findChildElements:[id: c78a8f5a-1ac3-4a12-98a0-8acb509ae644]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementSelected",
+          "args": [
+            "id: c78a8f5a-1ac3-4a12-98a0-8acb509ae644",
+            "{\"id\":\"c78a8f5a-1ac3-4a12-98a0-8acb509ae644\"}"
+          ],
+          "result": "isElementSelected:true",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[3]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: 51ec87a4-36a6-4f99-b436-d51c970a1bd7",
+          "subLogs": [],
+          "duration": 41
+        },
+        {
+          "commandName": "getElementTagName",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[3]/div[2]/select",
+            "{\"id\":\"51ec87a4-36a6-4f99-b436-d51c970a1bd7\"}"
+          ],
+          "result": "getElementTagName:select",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[3]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: 51ec87a4-36a6-4f99-b436-d51c970a1bd7",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[3]/div[2]/select",
+            "{\"name\":\"multiple\",\"id\":\"51ec87a4-36a6-4f99-b436-d51c970a1bd7\"}"
+          ],
+          "result": "getElementAttribute:null",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[3]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: 51ec87a4-36a6-4f99-b436-d51c970a1bd7",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[3]/div[2]/select",
+            "{\"using\":\"xpath\",\"id\":\"51ec87a4-36a6-4f99-b436-d51c970a1bd7\",\"value\":\".//option[@value = \\\"WRITE\\\"]\"}"
+          ],
+          "result": "findChildElements:[]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[7]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: ca421c0f-8da7-4ec2-8327-9ae09d58e2d6",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "getElementTagName",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[7]/div[2]/select",
+            "{\"id\":\"ca421c0f-8da7-4ec2-8327-9ae09d58e2d6\"}"
+          ],
+          "result": "getElementTagName:select",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[7]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: ca421c0f-8da7-4ec2-8327-9ae09d58e2d6",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[7]/div[2]/select",
+            "{\"name\":\"multiple\",\"id\":\"ca421c0f-8da7-4ec2-8327-9ae09d58e2d6\"}"
+          ],
+          "result": "getElementAttribute:null",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[7]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: ca421c0f-8da7-4ec2-8327-9ae09d58e2d6",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[7]/div[2]/select",
+            "{\"using\":\"xpath\",\"id\":\"ca421c0f-8da7-4ec2-8327-9ae09d58e2d6\",\"value\":\".//option[@value = \\\"WRITE\\\"]\"}"
+          ],
+          "result": "findChildElements:[id: a3749da2-66b3-48cc-83fb-bb230e297888]",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "isElementSelected",
+          "args": [
+            "id: a3749da2-66b3-48cc-83fb-bb230e297888",
+            "{\"id\":\"a3749da2-66b3-48cc-83fb-bb230e297888\"}"
+          ],
+          "result": "isElementSelected:true",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[12]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: 91078a2a-f208-4431-a772-42b2893ef1d5",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "getElementTagName",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[12]/div[2]/select",
+            "{\"id\":\"91078a2a-f208-4431-a772-42b2893ef1d5\"}"
+          ],
+          "result": "getElementTagName:select",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[12]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: 91078a2a-f208-4431-a772-42b2893ef1d5",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[12]/div[2]/select",
+            "{\"name\":\"multiple\",\"id\":\"91078a2a-f208-4431-a772-42b2893ef1d5\"}"
+          ],
+          "result": "getElementAttribute:null",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[12]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: 91078a2a-f208-4431-a772-42b2893ef1d5",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[12]/div[2]/select",
+            "{\"using\":\"xpath\",\"id\":\"91078a2a-f208-4431-a772-42b2893ef1d5\",\"value\":\".//option[@value = \\\"WRITE\\\"]\"}"
+          ],
+          "result": "findChildElements:[id: 370c7379-b6c7-4e9e-8840-0632cc07d776]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementSelected",
+          "args": [
+            "id: 370c7379-b6c7-4e9e-8840-0632cc07d776",
+            "{\"id\":\"370c7379-b6c7-4e9e-8840-0632cc07d776\"}"
+          ],
+          "result": "isElementSelected:true",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[5]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: ddf0d78f-234e-4558-af60-7fba22924ef4",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "getElementTagName",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[5]/div[2]/select",
+            "{\"id\":\"ddf0d78f-234e-4558-af60-7fba22924ef4\"}"
+          ],
+          "result": "getElementTagName:select",
+          "subLogs": [],
+          "duration": 5
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[5]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: ddf0d78f-234e-4558-af60-7fba22924ef4",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[5]/div[2]/select",
+            "{\"name\":\"multiple\",\"id\":\"ddf0d78f-234e-4558-af60-7fba22924ef4\"}"
+          ],
+          "result": "getElementAttribute:null",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[5]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: ddf0d78f-234e-4558-af60-7fba22924ef4",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[5]/div[2]/select",
+            "{\"using\":\"xpath\",\"id\":\"ddf0d78f-234e-4558-af60-7fba22924ef4\",\"value\":\".//option[@value = \\\"WRITE\\\"]\"}"
+          ],
+          "result": "findChildElements:[id: f305aa29-dc9e-4ea8-bc43-113142861ec0]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementSelected",
+          "args": [
+            "id: f305aa29-dc9e-4ea8-bc43-113142861ec0",
+            "{\"id\":\"f305aa29-dc9e-4ea8-bc43-113142861ec0\"}"
+          ],
+          "result": "isElementSelected:true",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[15]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: 593c0ac4-713a-49a3-9515-93f183950707",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementTagName",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[15]/div[2]/select",
+            "{\"id\":\"593c0ac4-713a-49a3-9515-93f183950707\"}"
+          ],
+          "result": "getElementTagName:select",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[15]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: 593c0ac4-713a-49a3-9515-93f183950707",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[15]/div[2]/select",
+            "{\"name\":\"multiple\",\"id\":\"593c0ac4-713a-49a3-9515-93f183950707\"}"
+          ],
+          "result": "getElementAttribute:null",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"collapse_9\"]/div[2]/div[15]/div[2]/select, using=xpath}"
+          ],
+          "result": "id: 593c0ac4-713a-49a3-9515-93f183950707",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "By.xpath: //*[@id=\"collapse_9\"]/div[2]/div[15]/div[2]/select",
+            "{\"using\":\"xpath\",\"id\":\"593c0ac4-713a-49a3-9515-93f183950707\",\"value\":\".//option[@value = \\\"WRITE\\\"]\"}"
+          ],
+          "result": "findChildElements:[id: 9e98192d-3c3a-47d1-adc4-7296a7395041]",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "isElementSelected",
+          "args": [
+            "id: 9e98192d-3c3a-47d1-adc4-7296a7395041",
+            "{\"id\":\"9e98192d-3c3a-47d1-adc4-7296a7395041\"}"
+          ],
+          "result": "isElementSelected:true",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"basemenu\"]/div[10]/div[1]/div/div[1]/h4/a, using=xpath}"
+          ],
+          "result": "id: 5a109142-d1b0-4f47-ae0f-efac38ee8777",
+          "subLogs": [],
+          "duration": 62
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id=\"basemenu\"]/div[10]/div[1]/div/div[1]/h4/a",
+            "{\"id\":\"5a109142-d1b0-4f47-ae0f-efac38ee8777\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 57
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//button[@class='btn btn-default margin-right-minus-2 ng-scope'], using=xpath}"
+          ],
+          "result": "id: 8b946da2-a8b0-495a-bfee-25bc63c66481",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //button[@class='btn btn-default margin-right-minus-2 ng-scope']",
+            "{\"id\":\"8b946da2-a8b0-495a-bfee-25bc63c66481\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//button[@class='btn btn-default margin-right-minus-2 ng-scope'], using=xpath}"
+          ],
+          "result": "id: 8b946da2-a8b0-495a-bfee-25bc63c66481",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "isElementEnabled",
+          "args": [
+            "By.xpath: //button[@class='btn btn-default margin-right-minus-2 ng-scope']",
+            "{\"id\":\"8b946da2-a8b0-495a-bfee-25bc63c66481\"}"
+          ],
+          "result": "isElementEnabled:true",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//button[@class='btn btn-default margin-right-minus-2 ng-scope'], using=xpath}"
+          ],
+          "result": "id: 8b946da2-a8b0-495a-bfee-25bc63c66481",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //button[@class='btn btn-default margin-right-minus-2 ng-scope']",
+            "{\"id\":\"8b946da2-a8b0-495a-bfee-25bc63c66481\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 217
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='notification-title'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='notification-title'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='notification-title'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@class='notification-title'], using=xpath}"
+          ],
+          "result": "[id: 6af6946f-6fa1-434f-9d22-dd2aaac0fe29]",
+          "subLogs": [],
+          "duration": 2
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@class='notification-title'], using=xpath}"
+          ],
+          "result": "id: 6af6946f-6fa1-434f-9d22-dd2aaac0fe29",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@class='notification-title']",
+            "{\"id\":\"6af6946f-6fa1-434f-9d22-dd2aaac0fe29\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//input[@id='role_name'], using=xpath}"
+          ],
+          "result": "[id: 527a0c7c-77f0-431b-8752-69ccb70d82f8]",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='role_name'], using=xpath}"
+          ],
+          "result": "id: 527a0c7c-77f0-431b-8752-69ccb70d82f8",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='role_name']",
+            "{\"id\":\"527a0c7c-77f0-431b-8752-69ccb70d82f8\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 46
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//button[@class='btn btn-grey'], using=xpath}"
+          ],
+          "result": "id: dc78739d-1bed-4739-882d-1c944af8528f",
+          "subLogs": [],
+          "duration": 7
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //button[@class='btn btn-grey']",
+            "{\"id\":\"dc78739d-1bed-4739-882d-1c944af8528f\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1990
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//button[@class='btn btn-default'], using=xpath}"
+          ],
+          "result": "[id: 0fa18758-107f-4b34-a367-890011af94a3]",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//button[@class='btn btn-default'], using=xpath}"
+          ],
+          "result": "id: 0fa18758-107f-4b34-a367-890011af94a3",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //button[@class='btn btn-default']",
+            "{\"id\":\"0fa18758-107f-4b34-a367-890011af94a3\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 20
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click_Logout",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='loader']//div[@class='sk-circle12 sk-child'], using=xpath}"
+          ],
+          "result": "id: 0190bf27-000f-4dde-9226-2d0b44466fb2",
+          "subLogs": [],
+          "duration": 47
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@id='loader']//div[@class='sk-circle12 sk-child']",
+            "{\"id\":\"0190bf27-000f-4dde-9226-2d0b44466fb2\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@data-target='#profile']/i, using=xpath}"
+          ],
+          "result": "id: f80466b2-c543-4493-bd53-293b57ff3c03",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[@data-target='#profile']/i",
+            "{\"id\":\"f80466b2-c543-4493-bd53-293b57ff3c03\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@data-target='#profile']/i, using=xpath}"
+          ],
+          "result": "id: f80466b2-c543-4493-bd53-293b57ff3c03",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[@data-target='#profile']/i",
+            "{\"id\":\"f80466b2-c543-4493-bd53-293b57ff3c03\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@data-target='#profile']/i, using=xpath}"
+          ],
+          "result": "id: f80466b2-c543-4493-bd53-293b57ff3c03",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementEnabled",
+          "args": [
+            "By.xpath: //a[@data-target='#profile']/i",
+            "{\"id\":\"f80466b2-c543-4493-bd53-293b57ff3c03\"}"
+          ],
+          "result": "isElementEnabled:true",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@data-target='#profile']/i, using=xpath}"
+          ],
+          "result": "id: f80466b2-c543-4493-bd53-293b57ff3c03",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[contains(text(),'Logout')], using=xpath}"
+          ],
+          "result": "id: b06b99c1-6d08-4fae-97c9-3b965f89b77f",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[contains(text(),'Logout')]",
+            "{\"id\":\"b06b99c1-6d08-4fae-97c9-3b965f89b77f\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[contains(text(),'Logout')], using=xpath}"
+          ],
+          "result": "id: b06b99c1-6d08-4fae-97c9-3b965f89b77f",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[contains(text(),'Logout')]",
+            "{\"id\":\"b06b99c1-6d08-4fae-97c9-3b965f89b77f\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[contains(text(),'Logout')], using=xpath}"
+          ],
+          "result": "id: b06b99c1-6d08-4fae-97c9-3b965f89b77f",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementEnabled",
+          "args": [
+            "By.xpath: //a[contains(text(),'Logout')]",
+            "{\"id\":\"b06b99c1-6d08-4fae-97c9-3b965f89b77f\"}"
+          ],
+          "result": "isElementEnabled:true",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[contains(text(),'Logout')], using=xpath}"
+          ],
+          "result": "id: b06b99c1-6d08-4fae-97c9-3b965f89b77f",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[contains(text(),'Logout')]",
+            "{\"id\":\"b06b99c1-6d08-4fae-97c9-3b965f89b77f\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 5543
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "I_login_to_Nflows_with_userName_and_password",
+      "args": [
+        "[Sundar, Sundar@123]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='uname'], using=xpath}"
+          ],
+          "result": "id: f1b945f6-3c81-4da8-9d22-9854efab2bfb",
+          "subLogs": [],
+          "duration": 34
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='uname']",
+            "{\"id\":\"f1b945f6-3c81-4da8-9d22-9854efab2bfb\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='uname'], using=xpath}"
+          ],
+          "result": "id: f1b945f6-3c81-4da8-9d22-9854efab2bfb",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //input[@id='uname']",
+            "{\"id\":\"f1b945f6-3c81-4da8-9d22-9854efab2bfb\",\"value\":[\"Sundar\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 76
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='upassword'], using=xpath}"
+          ],
+          "result": "id: 36ef0313-0ee7-466a-a25f-9e1f0b0a21b7",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='upassword']",
+            "{\"id\":\"36ef0313-0ee7-466a-a25f-9e1f0b0a21b7\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='upassword'], using=xpath}"
+          ],
+          "result": "id: 36ef0313-0ee7-466a-a25f-9e1f0b0a21b7",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //input[@id='upassword']",
+            "{\"id\":\"36ef0313-0ee7-466a-a25f-9e1f0b0a21b7\",\"value\":[\"Sundar@123\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 107
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//button[@class='btn btn-login'], using=xpath}"
+          ],
+          "result": "id: b65ecfe3-542b-4278-813c-28c8aacf4c62",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //button[@class='btn btn-login']",
+            "{\"id\":\"b65ecfe3-542b-4278-813c-28c8aacf4c62\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//button[@class='btn btn-login'], using=xpath}"
+          ],
+          "result": "id: b65ecfe3-542b-4278-813c-28c8aacf4c62",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "isElementEnabled",
+          "args": [
+            "By.xpath: //button[@class='btn btn-login']",
+            "{\"id\":\"b65ecfe3-542b-4278-813c-28c8aacf4c62\"}"
+          ],
+          "result": "isElementEnabled:true",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//button[@class='btn btn-login'], using=xpath}"
+          ],
+          "result": "id: b65ecfe3-542b-4278-813c-28c8aacf4c62",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //button[@class='btn btn-login']",
+            "{\"id\":\"b65ecfe3-542b-4278-813c-28c8aacf4c62\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 93
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "[id: 91819283-5b84-45e7-a6fc-2f7606dae576]",
+          "subLogs": [],
+          "duration": 794
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 91819283-5b84-45e7-a6fc-2f7606dae576",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"91819283-5b84-45e7-a6fc-2f7606dae576\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//img[contains(@class,'vertical-align')], using=xpath}"
+          ],
+          "result": "id: 8d203954-a59b-4304-9f8a-5a952d77a86d",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //img[contains(@class,'vertical-align')]",
+            "{\"id\":\"8d203954-a59b-4304-9f8a-5a952d77a86d\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 15
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "validate_Access_menu",
+      "args": [
+        "[Entity Definition;Workflow Definition;Request Admin;Teams;User Definition;Dropdown;Business Calendar;Export API;System Admin;User Access Configuration;Entity Data Dictionary;Workflow Data Dictionary, Entity Definition;Workflow;NA;Teams;NA;Dropdown;Business Calendar;Export API;NA;NA;NA;NA]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 91819283-5b84-45e7-a6fc-2f7606dae576",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"91819283-5b84-45e7-a6fc-2f7606dae576\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 91819283-5b84-45e7-a6fc-2f7606dae576",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "isElementEnabled",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"91819283-5b84-45e7-a6fc-2f7606dae576\"}"
+          ],
+          "result": "isElementEnabled:true",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 91819283-5b84-45e7-a6fc-2f7606dae576",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"91819283-5b84-45e7-a6fc-2f7606dae576\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 67
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: 6ecd727c-7b6f-40ef-aace-594bec9ff0ff",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"6ecd727c-7b6f-40ef-aace-594bec9ff0ff\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 39
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: 6ecd727c-7b6f-40ef-aace-594bec9ff0ff",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"6ecd727c-7b6f-40ef-aace-594bec9ff0ff\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: 6ecd727c-7b6f-40ef-aace-594bec9ff0ff",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"6ecd727c-7b6f-40ef-aace-594bec9ff0ff\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: 6ecd727c-7b6f-40ef-aace-594bec9ff0ff",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"6ecd727c-7b6f-40ef-aace-594bec9ff0ff\",\"value\":[\"Entity Definition\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 173
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[text()='Entity Definition'], using=xpath}"
+          ],
+          "result": "id: 2aba9e88-a675-4423-998f-1164716c5c0f",
+          "subLogs": [],
+          "duration": 37
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[text()='Entity Definition']",
+            "{\"id\":\"2aba9e88-a675-4423-998f-1164716c5c0f\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 34
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[text()='Entity Definition'], using=xpath}"
+          ],
+          "result": "id: 2aba9e88-a675-4423-998f-1164716c5c0f",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[text()='Entity Definition']",
+            "{\"id\":\"2aba9e88-a675-4423-998f-1164716c5c0f\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[text()='Entity Definition']",
+            "{\"id\":\"2aba9e88-a675-4423-998f-1164716c5c0f\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[text()='Entity Definition']",
+            "{\"id\":\"2aba9e88-a675-4423-998f-1164716c5c0f\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 2767
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//img[contains(@class,'vertical-align')], using=xpath}"
+          ],
+          "result": "id: 71b4fc83-8422-456c-aedf-bd7b8319a5aa",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //img[contains(@class,'vertical-align')]",
+            "{\"id\":\"71b4fc83-8422-456c-aedf-bd7b8319a5aa\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@id='loader']//div[@class='sk-circle12 sk-child'], using=xpath}"
+          ],
+          "result": "[id: 2d5055da-2c77-40c7-bb4c-b3c7d045c055]",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='loader']//div[@class='sk-circle12 sk-child'], using=xpath}"
+          ],
+          "result": "id: 2d5055da-2c77-40c7-bb4c-b3c7d045c055",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@id='loader']//div[@class='sk-circle12 sk-child']",
+            "{\"id\":\"2d5055da-2c77-40c7-bb4c-b3c7d045c055\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 35
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//button[contains(text(),'Entity Definition')], using=xpath}"
+          ],
+          "result": "id: dc5a2918-1b0c-4666-ae3d-4394a83aa7d5",
+          "subLogs": [],
+          "duration": 38
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //button[contains(text(),'Entity Definition')]",
+            "{\"id\":\"dc5a2918-1b0c-4666-ae3d-4394a83aa7d5\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 2260eac8-78f4-4779-90fc-459f7c591279",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"2260eac8-78f4-4779-90fc-459f7c591279\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 2260eac8-78f4-4779-90fc-459f7c591279",
+          "subLogs": [],
+          "duration": 34
+        },
+        {
+          "commandName": "isElementEnabled",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"2260eac8-78f4-4779-90fc-459f7c591279\"}"
+          ],
+          "result": "isElementEnabled:true",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 2260eac8-78f4-4779-90fc-459f7c591279",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"2260eac8-78f4-4779-90fc-459f7c591279\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 86
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: 1228b749-ed0e-4760-9e63-c983e7c7028b",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"1228b749-ed0e-4760-9e63-c983e7c7028b\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: 1228b749-ed0e-4760-9e63-c983e7c7028b",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"1228b749-ed0e-4760-9e63-c983e7c7028b\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: 1228b749-ed0e-4760-9e63-c983e7c7028b",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"1228b749-ed0e-4760-9e63-c983e7c7028b\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 34
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: 1228b749-ed0e-4760-9e63-c983e7c7028b",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"1228b749-ed0e-4760-9e63-c983e7c7028b\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: 1228b749-ed0e-4760-9e63-c983e7c7028b",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"1228b749-ed0e-4760-9e63-c983e7c7028b\",\"value\":[\"Workflow Definition\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 153
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[text()='Workflow Definition'], using=xpath}"
+          ],
+          "result": "id: 12578e6d-845e-4322-937c-2bcfeb607816",
+          "subLogs": [],
+          "duration": 47
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[text()='Workflow Definition']",
+            "{\"id\":\"12578e6d-845e-4322-937c-2bcfeb607816\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 37
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[text()='Workflow Definition'], using=xpath}"
+          ],
+          "result": "id: 12578e6d-845e-4322-937c-2bcfeb607816",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[text()='Workflow Definition']",
+            "{\"id\":\"12578e6d-845e-4322-937c-2bcfeb607816\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 47
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[text()='Workflow Definition']",
+            "{\"id\":\"12578e6d-845e-4322-937c-2bcfeb607816\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[text()='Workflow Definition']",
+            "{\"id\":\"12578e6d-845e-4322-937c-2bcfeb607816\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 2863
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//img[contains(@class,'vertical-align')], using=xpath}"
+          ],
+          "result": "id: b911cacf-b0c7-4a3c-a144-5e255ab64578",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //img[contains(@class,'vertical-align')]",
+            "{\"id\":\"b911cacf-b0c7-4a3c-a144-5e255ab64578\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 47
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@id='loader']//div[@class='sk-circle12 sk-child'], using=xpath}"
+          ],
+          "result": "[id: f547e7a8-2a8a-4b98-b7ec-0b3d4d35a95a]",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='loader']//div[@class='sk-circle12 sk-child'], using=xpath}"
+          ],
+          "result": "id: f547e7a8-2a8a-4b98-b7ec-0b3d4d35a95a",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@id='loader']//div[@class='sk-circle12 sk-child']",
+            "{\"id\":\"f547e7a8-2a8a-4b98-b7ec-0b3d4d35a95a\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//button[contains(text(),'Workflow')], using=xpath}"
+          ],
+          "result": "id: 5a39dcd3-47f9-48dc-b3f1-56743f42b375",
+          "subLogs": [],
+          "duration": 4
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //button[contains(text(),'Workflow')]",
+            "{\"id\":\"5a39dcd3-47f9-48dc-b3f1-56743f42b375\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 7d19e959-8547-408e-9fd0-670f5d44c5a7",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"7d19e959-8547-408e-9fd0-670f5d44c5a7\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 7d19e959-8547-408e-9fd0-670f5d44c5a7",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "isElementEnabled",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"7d19e959-8547-408e-9fd0-670f5d44c5a7\"}"
+          ],
+          "result": "isElementEnabled:true",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 7d19e959-8547-408e-9fd0-670f5d44c5a7",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"7d19e959-8547-408e-9fd0-670f5d44c5a7\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 102
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: ec35e1c8-21ca-4120-b9bd-21b59fa54b1c",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"ec35e1c8-21ca-4120-b9bd-21b59fa54b1c\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: ec35e1c8-21ca-4120-b9bd-21b59fa54b1c",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"ec35e1c8-21ca-4120-b9bd-21b59fa54b1c\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: ec35e1c8-21ca-4120-b9bd-21b59fa54b1c",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"ec35e1c8-21ca-4120-b9bd-21b59fa54b1c\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 38
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: ec35e1c8-21ca-4120-b9bd-21b59fa54b1c",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"ec35e1c8-21ca-4120-b9bd-21b59fa54b1c\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: ec35e1c8-21ca-4120-b9bd-21b59fa54b1c",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"ec35e1c8-21ca-4120-b9bd-21b59fa54b1c\",\"value\":[\"Request Admin\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 120
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[text()='Request Admin'], using=xpath}"
+          ],
+          "result": "id: 04405108-e75a-4ca1-a999-56172775e089",
+          "subLogs": [],
+          "duration": 50
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[text()='Request Admin']",
+            "{\"id\":\"04405108-e75a-4ca1-a999-56172775e089\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 47
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[text()='Request Admin'], using=xpath}"
+          ],
+          "result": "id: 04405108-e75a-4ca1-a999-56172775e089",
+          "subLogs": [],
+          "duration": 7
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[text()='Request Admin']",
+            "{\"id\":\"04405108-e75a-4ca1-a999-56172775e089\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[text()='Request Admin']",
+            "{\"id\":\"04405108-e75a-4ca1-a999-56172775e089\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[text()='Request Admin']",
+            "{\"id\":\"04405108-e75a-4ca1-a999-56172775e089\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 4218
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//img[contains(@class,'vertical-align')], using=xpath}"
+          ],
+          "result": "id: bf5653d1-979b-4676-9f00-e2f0e6a35a53",
+          "subLogs": [],
+          "duration": 44
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //img[contains(@class,'vertical-align')]",
+            "{\"id\":\"bf5653d1-979b-4676-9f00-e2f0e6a35a53\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@id='loader']//div[@class='sk-circle12 sk-child'], using=xpath}"
+          ],
+          "result": "[id: c49deec0-7573-4f2a-957f-2fb7ab94eea1]",
+          "subLogs": [],
+          "duration": 2
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='loader']//div[@class='sk-circle12 sk-child'], using=xpath}"
+          ],
+          "result": "id: c49deec0-7573-4f2a-957f-2fb7ab94eea1",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@id='loader']//div[@class='sk-circle12 sk-child']",
+            "{\"id\":\"c49deec0-7573-4f2a-957f-2fb7ab94eea1\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 42d63382-b667-40fb-a759-c2edb473ff5e",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"42d63382-b667-40fb-a759-c2edb473ff5e\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 54
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 42d63382-b667-40fb-a759-c2edb473ff5e",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "isElementEnabled",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"42d63382-b667-40fb-a759-c2edb473ff5e\"}"
+          ],
+          "result": "isElementEnabled:true",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 42d63382-b667-40fb-a759-c2edb473ff5e",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"42d63382-b667-40fb-a759-c2edb473ff5e\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 61
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: 6d5b427a-779b-4049-b34b-e3764519ecd3",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"6d5b427a-779b-4049-b34b-e3764519ecd3\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: 6d5b427a-779b-4049-b34b-e3764519ecd3",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"6d5b427a-779b-4049-b34b-e3764519ecd3\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: 6d5b427a-779b-4049-b34b-e3764519ecd3",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"6d5b427a-779b-4049-b34b-e3764519ecd3\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 40
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: 6d5b427a-779b-4049-b34b-e3764519ecd3",
+          "subLogs": [],
+          "duration": 6
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"6d5b427a-779b-4049-b34b-e3764519ecd3\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: 6d5b427a-779b-4049-b34b-e3764519ecd3",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"6d5b427a-779b-4049-b34b-e3764519ecd3\",\"value\":[\"Teams\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 95
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[text()='Teams'], using=xpath}"
+          ],
+          "result": "id: d66c8181-7d35-44c0-8dd6-19cd4d65c88e",
+          "subLogs": [],
+          "duration": 53
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[text()='Teams']",
+            "{\"id\":\"d66c8181-7d35-44c0-8dd6-19cd4d65c88e\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 47
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[text()='Teams'], using=xpath}"
+          ],
+          "result": "id: d66c8181-7d35-44c0-8dd6-19cd4d65c88e",
+          "subLogs": [],
+          "duration": 7
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[text()='Teams']",
+            "{\"id\":\"d66c8181-7d35-44c0-8dd6-19cd4d65c88e\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[text()='Teams']",
+            "{\"id\":\"d66c8181-7d35-44c0-8dd6-19cd4d65c88e\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[text()='Teams']",
+            "{\"id\":\"d66c8181-7d35-44c0-8dd6-19cd4d65c88e\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 2581
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//img[contains(@class,'vertical-align')], using=xpath}"
+          ],
+          "result": "id: 1545c4be-d64d-44c9-8057-1c3c3e92c980",
+          "subLogs": [],
+          "duration": 35
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //img[contains(@class,'vertical-align')]",
+            "{\"id\":\"1545c4be-d64d-44c9-8057-1c3c3e92c980\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 47
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@id='loader']//div[@class='sk-circle12 sk-child'], using=xpath}"
+          ],
+          "result": "[id: 8fa10e07-ec99-47ad-95a3-9626fd0298e1]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='loader']//div[@class='sk-circle12 sk-child'], using=xpath}"
+          ],
+          "result": "id: 8fa10e07-ec99-47ad-95a3-9626fd0298e1",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@id='loader']//div[@class='sk-circle12 sk-child']",
+            "{\"id\":\"8fa10e07-ec99-47ad-95a3-9626fd0298e1\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//button[contains(text(),'Teams')], using=xpath}"
+          ],
+          "result": "id: d8421934-1d58-4f42-a954-04cce0657164",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //button[contains(text(),'Teams')]",
+            "{\"id\":\"d8421934-1d58-4f42-a954-04cce0657164\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 49
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: cf9c29c4-a0fc-4922-aaaf-144d7e351152",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"cf9c29c4-a0fc-4922-aaaf-144d7e351152\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: cf9c29c4-a0fc-4922-aaaf-144d7e351152",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementEnabled",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"cf9c29c4-a0fc-4922-aaaf-144d7e351152\"}"
+          ],
+          "result": "isElementEnabled:true",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: cf9c29c4-a0fc-4922-aaaf-144d7e351152",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"cf9c29c4-a0fc-4922-aaaf-144d7e351152\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 97
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: 8c4f8d0e-88c2-4e37-841d-4702b02b334c",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"8c4f8d0e-88c2-4e37-841d-4702b02b334c\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: 8c4f8d0e-88c2-4e37-841d-4702b02b334c",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"8c4f8d0e-88c2-4e37-841d-4702b02b334c\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: 8c4f8d0e-88c2-4e37-841d-4702b02b334c",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"8c4f8d0e-88c2-4e37-841d-4702b02b334c\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 44
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: 8c4f8d0e-88c2-4e37-841d-4702b02b334c",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"8c4f8d0e-88c2-4e37-841d-4702b02b334c\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: 8c4f8d0e-88c2-4e37-841d-4702b02b334c",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"8c4f8d0e-88c2-4e37-841d-4702b02b334c\",\"value\":[\"User Definition\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 132
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[text()='User Definition'], using=xpath}"
+          ],
+          "result": "id: c882e36f-f333-4872-8112-65e3f6f73b31",
+          "subLogs": [],
+          "duration": 37
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[text()='User Definition']",
+            "{\"id\":\"c882e36f-f333-4872-8112-65e3f6f73b31\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 60
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[text()='User Definition'], using=xpath}"
+          ],
+          "result": "id: c882e36f-f333-4872-8112-65e3f6f73b31",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[text()='User Definition']",
+            "{\"id\":\"c882e36f-f333-4872-8112-65e3f6f73b31\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[text()='User Definition']",
+            "{\"id\":\"c882e36f-f333-4872-8112-65e3f6f73b31\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[text()='User Definition']",
+            "{\"id\":\"c882e36f-f333-4872-8112-65e3f6f73b31\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 3227
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//img[contains(@class,'vertical-align')], using=xpath}"
+          ],
+          "result": "id: bb2e339e-78af-4cb9-9141-7a34fbf2e63e",
+          "subLogs": [],
+          "duration": 65
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //img[contains(@class,'vertical-align')]",
+            "{\"id\":\"bb2e339e-78af-4cb9-9141-7a34fbf2e63e\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 38
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@id='loader']//div[@class='sk-circle12 sk-child'], using=xpath}"
+          ],
+          "result": "[id: 178309c8-69a1-47c3-bf64-465e0d5e39dc]",
+          "subLogs": [],
+          "duration": 7
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='loader']//div[@class='sk-circle12 sk-child'], using=xpath}"
+          ],
+          "result": "id: 178309c8-69a1-47c3-bf64-465e0d5e39dc",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@id='loader']//div[@class='sk-circle12 sk-child']",
+            "{\"id\":\"178309c8-69a1-47c3-bf64-465e0d5e39dc\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 19214a55-3005-4862-a6f1-5c22a33f5da4",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"19214a55-3005-4862-a6f1-5c22a33f5da4\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 19214a55-3005-4862-a6f1-5c22a33f5da4",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "isElementEnabled",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"19214a55-3005-4862-a6f1-5c22a33f5da4\"}"
+          ],
+          "result": "isElementEnabled:true",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 19214a55-3005-4862-a6f1-5c22a33f5da4",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"19214a55-3005-4862-a6f1-5c22a33f5da4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 98
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: dde6368a-a68e-4489-89af-9740be309206",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"dde6368a-a68e-4489-89af-9740be309206\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: dde6368a-a68e-4489-89af-9740be309206",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"dde6368a-a68e-4489-89af-9740be309206\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: dde6368a-a68e-4489-89af-9740be309206",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"dde6368a-a68e-4489-89af-9740be309206\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 50
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: dde6368a-a68e-4489-89af-9740be309206",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"dde6368a-a68e-4489-89af-9740be309206\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: dde6368a-a68e-4489-89af-9740be309206",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"dde6368a-a68e-4489-89af-9740be309206\",\"value\":[\"Dropdown\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 176
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[text()='Dropdown'], using=xpath}"
+          ],
+          "result": "id: 7ffb0ace-81dd-45b8-974b-54d8a8f17a86",
+          "subLogs": [],
+          "duration": 35
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[text()='Dropdown']",
+            "{\"id\":\"7ffb0ace-81dd-45b8-974b-54d8a8f17a86\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[text()='Dropdown'], using=xpath}"
+          ],
+          "result": "id: 7ffb0ace-81dd-45b8-974b-54d8a8f17a86",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[text()='Dropdown']",
+            "{\"id\":\"7ffb0ace-81dd-45b8-974b-54d8a8f17a86\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 38
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[text()='Dropdown']",
+            "{\"id\":\"7ffb0ace-81dd-45b8-974b-54d8a8f17a86\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[text()='Dropdown']",
+            "{\"id\":\"7ffb0ace-81dd-45b8-974b-54d8a8f17a86\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1736
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//img[contains(@class,'vertical-align')], using=xpath}"
+          ],
+          "result": "id: f67eeab1-2c53-4daa-9cb3-a786f4773a3a",
+          "subLogs": [],
+          "duration": 50
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //img[contains(@class,'vertical-align')]",
+            "{\"id\":\"f67eeab1-2c53-4daa-9cb3-a786f4773a3a\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@id='loader']//div[@class='sk-circle12 sk-child'], using=xpath}"
+          ],
+          "result": "[id: d08f8c06-5b28-4ae1-8904-8a6b641b0480]",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='loader']//div[@class='sk-circle12 sk-child'], using=xpath}"
+          ],
+          "result": "id: d08f8c06-5b28-4ae1-8904-8a6b641b0480",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@id='loader']//div[@class='sk-circle12 sk-child']",
+            "{\"id\":\"d08f8c06-5b28-4ae1-8904-8a6b641b0480\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//button[contains(text(),'Dropdown')], using=xpath}"
+          ],
+          "result": "id: d6b19930-9e35-4610-908c-3779c9f4a29d",
+          "subLogs": [],
+          "duration": 51
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //button[contains(text(),'Dropdown')]",
+            "{\"id\":\"d6b19930-9e35-4610-908c-3779c9f4a29d\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 0d74b007-d0a1-438a-a82a-9f04db6ce6a5",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"0d74b007-d0a1-438a-a82a-9f04db6ce6a5\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 47
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 0d74b007-d0a1-438a-a82a-9f04db6ce6a5",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "isElementEnabled",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"0d74b007-d0a1-438a-a82a-9f04db6ce6a5\"}"
+          ],
+          "result": "isElementEnabled:true",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 0d74b007-d0a1-438a-a82a-9f04db6ce6a5",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"0d74b007-d0a1-438a-a82a-9f04db6ce6a5\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 84
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: ed4e3127-4ed7-427d-a78c-11865c8457e9",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"ed4e3127-4ed7-427d-a78c-11865c8457e9\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: ed4e3127-4ed7-427d-a78c-11865c8457e9",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"ed4e3127-4ed7-427d-a78c-11865c8457e9\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 34
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: ed4e3127-4ed7-427d-a78c-11865c8457e9",
+          "subLogs": [],
+          "duration": 7
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"ed4e3127-4ed7-427d-a78c-11865c8457e9\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: ed4e3127-4ed7-427d-a78c-11865c8457e9",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"ed4e3127-4ed7-427d-a78c-11865c8457e9\",\"value\":[\"Business Calendar\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 149
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[text()='Business Calendar'], using=xpath}"
+          ],
+          "result": "id: 92564587-aaff-4a60-8c53-bd6a76788ed4",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[text()='Business Calendar']",
+            "{\"id\":\"92564587-aaff-4a60-8c53-bd6a76788ed4\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[text()='Business Calendar'], using=xpath}"
+          ],
+          "result": "id: 92564587-aaff-4a60-8c53-bd6a76788ed4",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[text()='Business Calendar']",
+            "{\"id\":\"92564587-aaff-4a60-8c53-bd6a76788ed4\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[text()='Business Calendar']",
+            "{\"id\":\"92564587-aaff-4a60-8c53-bd6a76788ed4\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 4
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[text()='Business Calendar']",
+            "{\"id\":\"92564587-aaff-4a60-8c53-bd6a76788ed4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 2028
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//img[contains(@class,'vertical-align')], using=xpath}"
+          ],
+          "result": "id: 9fec7e24-99cc-4b8f-9ee5-adbdbd050fdf",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //img[contains(@class,'vertical-align')]",
+            "{\"id\":\"9fec7e24-99cc-4b8f-9ee5-adbdbd050fdf\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 50
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//div[@id='loader']//div[@class='sk-circle12 sk-child'], using=xpath}"
+          ],
+          "result": "[id: cfe05998-6f6f-4c87-b125-ac2c281b3921]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='loader']//div[@class='sk-circle12 sk-child'], using=xpath}"
+          ],
+          "result": "id: cfe05998-6f6f-4c87-b125-ac2c281b3921",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@id='loader']//div[@class='sk-circle12 sk-child']",
+            "{\"id\":\"cfe05998-6f6f-4c87-b125-ac2c281b3921\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//button[contains(text(),'Business Calendar')], using=xpath}"
+          ],
+          "result": "id: 27399b34-4542-447e-886b-8489cf9c0792",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //button[contains(text(),'Business Calendar')]",
+            "{\"id\":\"27399b34-4542-447e-886b-8489cf9c0792\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 47
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 0d608784-f261-47d3-a4d2-c38b10be070a",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"0d608784-f261-47d3-a4d2-c38b10be070a\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 0d608784-f261-47d3-a4d2-c38b10be070a",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementEnabled",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"0d608784-f261-47d3-a4d2-c38b10be070a\"}"
+          ],
+          "result": "isElementEnabled:true",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 0d608784-f261-47d3-a4d2-c38b10be070a",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"0d608784-f261-47d3-a4d2-c38b10be070a\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 77
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: e382512c-e07c-49b7-afe6-09985d3337fc",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"e382512c-e07c-49b7-afe6-09985d3337fc\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: e382512c-e07c-49b7-afe6-09985d3337fc",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"e382512c-e07c-49b7-afe6-09985d3337fc\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: e382512c-e07c-49b7-afe6-09985d3337fc",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"e382512c-e07c-49b7-afe6-09985d3337fc\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 43
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: e382512c-e07c-49b7-afe6-09985d3337fc",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"e382512c-e07c-49b7-afe6-09985d3337fc\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: e382512c-e07c-49b7-afe6-09985d3337fc",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"e382512c-e07c-49b7-afe6-09985d3337fc\",\"value\":[\"Export API\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 120
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[text()='Export API'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[text()='Export API']\"}\n  (Session info: chrome=88.0.4324.96)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'STRINLP030', ip: '10.0.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_66'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.96, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\Sundars\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58072}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 670499591f2b652cbf4217ce1eda3e79\n*** Element info: {Using=xpath, value=//a[text()='Export API']}",
+          "subLogs": [],
+          "duration": 169
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 0d608784-f261-47d3-a4d2-c38b10be070a",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"0d608784-f261-47d3-a4d2-c38b10be070a\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 0d608784-f261-47d3-a4d2-c38b10be070a",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementEnabled",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"0d608784-f261-47d3-a4d2-c38b10be070a\"}"
+          ],
+          "result": "isElementEnabled:true",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 0d608784-f261-47d3-a4d2-c38b10be070a",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"0d608784-f261-47d3-a4d2-c38b10be070a\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 0d608784-f261-47d3-a4d2-c38b10be070a",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"0d608784-f261-47d3-a4d2-c38b10be070a\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 0d608784-f261-47d3-a4d2-c38b10be070a",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementEnabled",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"0d608784-f261-47d3-a4d2-c38b10be070a\"}"
+          ],
+          "result": "isElementEnabled:true",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 0d608784-f261-47d3-a4d2-c38b10be070a",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"0d608784-f261-47d3-a4d2-c38b10be070a\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 62
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: e382512c-e07c-49b7-afe6-09985d3337fc",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"e382512c-e07c-49b7-afe6-09985d3337fc\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: e382512c-e07c-49b7-afe6-09985d3337fc",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"e382512c-e07c-49b7-afe6-09985d3337fc\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: e382512c-e07c-49b7-afe6-09985d3337fc",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"e382512c-e07c-49b7-afe6-09985d3337fc\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: e382512c-e07c-49b7-afe6-09985d3337fc",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"e382512c-e07c-49b7-afe6-09985d3337fc\",\"value\":[\"System Admin\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 155
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[text()='System Admin'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[text()='System Admin']\"}\n  (Session info: chrome=88.0.4324.96)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'STRINLP030', ip: '10.0.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_66'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.96, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\Sundars\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58072}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 670499591f2b652cbf4217ce1eda3e79\n*** Element info: {Using=xpath, value=//a[text()='System Admin']}",
+          "subLogs": [],
+          "duration": 54
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 0d608784-f261-47d3-a4d2-c38b10be070a",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"0d608784-f261-47d3-a4d2-c38b10be070a\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 36
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 0d608784-f261-47d3-a4d2-c38b10be070a",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "isElementEnabled",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"0d608784-f261-47d3-a4d2-c38b10be070a\"}"
+          ],
+          "result": "isElementEnabled:true",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 0d608784-f261-47d3-a4d2-c38b10be070a",
+          "subLogs": [],
+          "duration": 47
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"0d608784-f261-47d3-a4d2-c38b10be070a\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 54
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 0d608784-f261-47d3-a4d2-c38b10be070a",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"0d608784-f261-47d3-a4d2-c38b10be070a\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 0d608784-f261-47d3-a4d2-c38b10be070a",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "isElementEnabled",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"0d608784-f261-47d3-a4d2-c38b10be070a\"}"
+          ],
+          "result": "isElementEnabled:true",
+          "subLogs": [],
+          "duration": 7
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 0d608784-f261-47d3-a4d2-c38b10be070a",
+          "subLogs": [],
+          "duration": 7
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"0d608784-f261-47d3-a4d2-c38b10be070a\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: e382512c-e07c-49b7-afe6-09985d3337fc",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"e382512c-e07c-49b7-afe6-09985d3337fc\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: e382512c-e07c-49b7-afe6-09985d3337fc",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"e382512c-e07c-49b7-afe6-09985d3337fc\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: e382512c-e07c-49b7-afe6-09985d3337fc",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"e382512c-e07c-49b7-afe6-09985d3337fc\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: e382512c-e07c-49b7-afe6-09985d3337fc",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"e382512c-e07c-49b7-afe6-09985d3337fc\",\"value\":[\"User Access Configuration\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 213
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[text()='User Access Configuration'], using=xpath}"
+          ],
+          "result": "id: 3e43b691-9e3d-4ee1-84e3-34b531f9bda9",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[text()='User Access Configuration']",
+            "{\"id\":\"3e43b691-9e3d-4ee1-84e3-34b531f9bda9\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 47
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 0d608784-f261-47d3-a4d2-c38b10be070a",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"0d608784-f261-47d3-a4d2-c38b10be070a\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 0d608784-f261-47d3-a4d2-c38b10be070a",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementEnabled",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"0d608784-f261-47d3-a4d2-c38b10be070a\"}"
+          ],
+          "result": "isElementEnabled:true",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 0d608784-f261-47d3-a4d2-c38b10be070a",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"0d608784-f261-47d3-a4d2-c38b10be070a\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 66
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 0d608784-f261-47d3-a4d2-c38b10be070a",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"0d608784-f261-47d3-a4d2-c38b10be070a\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 0d608784-f261-47d3-a4d2-c38b10be070a",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "isElementEnabled",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"0d608784-f261-47d3-a4d2-c38b10be070a\"}"
+          ],
+          "result": "isElementEnabled:true",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 0d608784-f261-47d3-a4d2-c38b10be070a",
+          "subLogs": [],
+          "duration": 7
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"0d608784-f261-47d3-a4d2-c38b10be070a\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: e382512c-e07c-49b7-afe6-09985d3337fc",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"e382512c-e07c-49b7-afe6-09985d3337fc\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: e382512c-e07c-49b7-afe6-09985d3337fc",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"e382512c-e07c-49b7-afe6-09985d3337fc\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: e382512c-e07c-49b7-afe6-09985d3337fc",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"e382512c-e07c-49b7-afe6-09985d3337fc\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: e382512c-e07c-49b7-afe6-09985d3337fc",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"e382512c-e07c-49b7-afe6-09985d3337fc\",\"value\":[\"Entity Data Dictionary\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 199
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[text()='Entity Data Dictionary'], using=xpath}"
+          ],
+          "result": "id: 76d6051c-8d4f-4a92-96ab-e198fe95dfc4",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[text()='Entity Data Dictionary']",
+            "{\"id\":\"76d6051c-8d4f-4a92-96ab-e198fe95dfc4\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 62
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 0d608784-f261-47d3-a4d2-c38b10be070a",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"0d608784-f261-47d3-a4d2-c38b10be070a\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 0d608784-f261-47d3-a4d2-c38b10be070a",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "isElementEnabled",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"0d608784-f261-47d3-a4d2-c38b10be070a\"}"
+          ],
+          "result": "isElementEnabled:true",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 0d608784-f261-47d3-a4d2-c38b10be070a",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"0d608784-f261-47d3-a4d2-c38b10be070a\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 45
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 0d608784-f261-47d3-a4d2-c38b10be070a",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"0d608784-f261-47d3-a4d2-c38b10be070a\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 0d608784-f261-47d3-a4d2-c38b10be070a",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "isElementEnabled",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"0d608784-f261-47d3-a4d2-c38b10be070a\"}"
+          ],
+          "result": "isElementEnabled:true",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 0d608784-f261-47d3-a4d2-c38b10be070a",
+          "subLogs": [],
+          "duration": 7
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"0d608784-f261-47d3-a4d2-c38b10be070a\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: e382512c-e07c-49b7-afe6-09985d3337fc",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"e382512c-e07c-49b7-afe6-09985d3337fc\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: e382512c-e07c-49b7-afe6-09985d3337fc",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"e382512c-e07c-49b7-afe6-09985d3337fc\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: e382512c-e07c-49b7-afe6-09985d3337fc",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"e382512c-e07c-49b7-afe6-09985d3337fc\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='myInput'], using=xpath}"
+          ],
+          "result": "id: e382512c-e07c-49b7-afe6-09985d3337fc",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //input[@id='myInput']",
+            "{\"id\":\"e382512c-e07c-49b7-afe6-09985d3337fc\",\"value\":[\"Workflow Data Dictionary\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 199
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[text()='Workflow Data Dictionary'], using=xpath}"
+          ],
+          "result": "id: 59c6451b-9f80-48bf-a8a7-3e9a49368f95",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[text()='Workflow Data Dictionary']",
+            "{\"id\":\"59c6451b-9f80-48bf-a8a7-3e9a49368f95\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 46
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 0d608784-f261-47d3-a4d2-c38b10be070a",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"0d608784-f261-47d3-a4d2-c38b10be070a\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 38
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 0d608784-f261-47d3-a4d2-c38b10be070a",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "isElementEnabled",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"0d608784-f261-47d3-a4d2-c38b10be070a\"}"
+          ],
+          "result": "isElementEnabled:true",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='nav-icon1'], using=xpath}"
+          ],
+          "result": "id: 0d608784-f261-47d3-a4d2-c38b10be070a",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //div[@id='nav-icon1']",
+            "{\"id\":\"0d608784-f261-47d3-a4d2-c38b10be070a\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 50
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click_Logout",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@id='loader']//div[@class='sk-circle12 sk-child'], using=xpath}"
+          ],
+          "result": "id: cfe05998-6f6f-4c87-b125-ac2c281b3921",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //div[@id='loader']//div[@class='sk-circle12 sk-child']",
+            "{\"id\":\"cfe05998-6f6f-4c87-b125-ac2c281b3921\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 46
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@data-target='#profile']/i, using=xpath}"
+          ],
+          "result": "id: d02c30b6-cddc-4c8f-82a5-5ffcc9bd8876",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[@data-target='#profile']/i",
+            "{\"id\":\"d02c30b6-cddc-4c8f-82a5-5ffcc9bd8876\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@data-target='#profile']/i, using=xpath}"
+          ],
+          "result": "id: d02c30b6-cddc-4c8f-82a5-5ffcc9bd8876",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[@data-target='#profile']/i",
+            "{\"id\":\"d02c30b6-cddc-4c8f-82a5-5ffcc9bd8876\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@data-target='#profile']/i, using=xpath}"
+          ],
+          "result": "id: d02c30b6-cddc-4c8f-82a5-5ffcc9bd8876",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementEnabled",
+          "args": [
+            "By.xpath: //a[@data-target='#profile']/i",
+            "{\"id\":\"d02c30b6-cddc-4c8f-82a5-5ffcc9bd8876\"}"
+          ],
+          "result": "isElementEnabled:true",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@data-target='#profile']/i, using=xpath}"
+          ],
+          "result": "id: d02c30b6-cddc-4c8f-82a5-5ffcc9bd8876",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[contains(text(),'Logout')], using=xpath}"
+          ],
+          "result": "id: 19221d0b-c78f-47a7-96b9-ca1c8915fa87",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[contains(text(),'Logout')]",
+            "{\"id\":\"19221d0b-c78f-47a7-96b9-ca1c8915fa87\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[contains(text(),'Logout')], using=xpath}"
+          ],
+          "result": "id: 19221d0b-c78f-47a7-96b9-ca1c8915fa87",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[contains(text(),'Logout')]",
+            "{\"id\":\"19221d0b-c78f-47a7-96b9-ca1c8915fa87\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[contains(text(),'Logout')], using=xpath}"
+          ],
+          "result": "id: 19221d0b-c78f-47a7-96b9-ca1c8915fa87",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "isElementEnabled",
+          "args": [
+            "By.xpath: //a[contains(text(),'Logout')]",
+            "{\"id\":\"19221d0b-c78f-47a7-96b9-ca1c8915fa87\"}"
+          ],
+          "result": "isElementEnabled:true",
+          "subLogs": [],
+          "duration": 0
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[contains(text(),'Logout')], using=xpath}"
+          ],
+          "result": "id: 19221d0b-c78f-47a7-96b9-ca1c8915fa87",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[contains(text(),'Logout')]",
+            "{\"id\":\"19221d0b-c78f-47a7-96b9-ca1c8915fa87\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 4135
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I navigate to \"Roles\" page",
+      "type": "TestStepPass",
+      "duration": 16544,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Navigated to Roles successfully",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And Verify Landing Page Grid",
+      "type": "TestStepPass",
+      "duration": 507,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And Search the Roles with \"Automation\" and edit",
+      "type": "TestStepPass",
+      "duration": 13750,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I provide \"WRITE\" access at Menu level",
+      "type": "TestStepPass",
+      "duration": 26032,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on Logout Button",
+      "type": "TestStepPass",
+      "duration": 8550,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "I click on Logout Button successfully",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Given I login to Nflows with \"Sundar\" and \"Sundar@123\" credentials",
+      "type": "TestStepPass",
+      "duration": 3705,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Success - Login is Successful !",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then I validate access at menulevel with \"Entity Definition;Workflow Definition;Request Admin;Teams;User Definition;Dropdown;Business Calendar;Export API;System Admin;User Access Configuration;Entity Data Dictionary;Workflow Data Dictionary\" and \"Entity Definition;Workflow;NA;Teams;NA;Dropdown;Business Calendar;Export API;NA;NA;NA;NA\"",
+      "type": "TestStepPass",
+      "duration": 100059,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Navigated to Entity Definition successfully",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Menu level validation successfull at Entity Definition",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Navigated to Workflow Definition successfully",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Menu level validation successfull at Workflow Definition",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Navigated to Request Admin successfully",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Menu level validation successfull - PassRequest Admin",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Navigated to Teams successfully",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Menu level validation successfull at Teams",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Navigated to User Definition successfully",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Menu level validation successfull - PassUser Definition",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Navigated to Dropdown successfully",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Menu level validation successfull at Dropdown",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Navigated to Business Calendar successfully",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Menu level validation successfull at Business Calendar",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Menu level validation successfull at Export API",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Menu level validation successfull at System Admin",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Menu level validation successfull at User Access Configuration",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Menu level validation successfull at Entity Data Dictionary",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Menu level validation successfull at Workflow Data Dictionary",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then I click on Logout Button",
+      "type": "TestStepPass",
+      "duration": 6337,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "I click on Logout Button successfully",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

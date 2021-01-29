@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>TestNG:  Roles_Read</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Roles_Read</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Sep 14 11:03:11 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>35 seconds (35116 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>@AD_07_CreateTestResult @AD_01_NflowsLogin @AD_08_CreatePDFReport @AD_00_LaunchNflows </td>
+</tr><tr>
+<td>Excluded groups:</td><td>@Roles_Read_3_3 </td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Launching Nflows application()'><b>Launching Nflows application</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Launching Nflows application)<br>Parameters: {Url_Testing=http://192.168.1.107:8080/nFlowsEnhancementsRelease/login/login.jsp, Execute=YES, recording_enabled=NO, pdfReport_enabled=YES, isExcelReport_enabled=YES, __index=1}<br/>
+<a href="#Output-843512726" onClick='toggleBox("Output-843512726", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-843512726" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-843512726">
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█<br/>
+█ TEST STARTED: Launching Nflows application [{Url_Testing=http://192.168.1.107:8080/nFlowsEnhancementsRelease/login/login.jsp, Execute=YES, recording_enabled=NO, pdfReport_enabled=YES, isExcelReport_enabled=YES, __index=1}] █<br/>
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█<br/>
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I launch Nflows application using "http://192.168.1.107:8080/nFlowsEnhancementsRelease/login/login.jsp"</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Nflows Site is launched successfully</div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Login to Nflows()'><b>Login to Nflows</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Login to Nflows)<br>Parameters: {username=Dharmo, password=111, __index=1}<br/>
+<a href="#Output-1726616678" onClick='toggleBox("Output-1726616678", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1726616678" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1726616678">
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█<br/>
+█ TEST STARTED: Login to Nflows [{username=Dharmo, password=111, __index=1}] █<br/>
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█<br/>
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I login to Nflows with "Dharmo" and "111" credentials</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Success - Login is Successful !</div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.To Create Test Result file()'><b>To Create Test Result file</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (To Create Test Result file)<br>Parameters: {Url_Testing=http://192.168.1.107:8080/nFlowsEnhancementsRelease/login/login.jsp, Execute=YES, recording_enabled=NO, pdfReport_enabled=YES, isExcelReport_enabled=YES, __index=1}<br/>
+<a href="#Output-1587872480" onClick='toggleBox("Output-1587872480", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1587872480" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1587872480">
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█<br/>
+█ TEST STARTED: To Create Test Result file [{Url_Testing=http://192.168.1.107:8080/nFlowsEnhancementsRelease/login/login.jsp, Execute=YES, recording_enabled=NO, pdfReport_enabled=YES, isExcelReport_enabled=YES, __index=1}] █<br/>
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█<br/>
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When I create a Test Result file based on "YES"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ea</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.To Start PDF Report()'><b>To Start PDF Report</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (To Start PDF Report)<br>Parameters: {Url_Testing=http://192.168.1.107:8080/nFlowsEnhancementsRelease/login/login.jsp, Execute=YES, recording_enabled=NO, pdfReport_enabled=YES, isExcelReport_enabled=YES, __index=1}<br/>
+<a href="#Output-2027133545" onClick='toggleBox("Output-2027133545", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2027133545" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2027133545">
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█<br/>
+█ TEST STARTED: To Start PDF Report [{Url_Testing=http://192.168.1.107:8080/nFlowsEnhancementsRelease/login/login.jsp, Execute=YES, recording_enabled=NO, pdfReport_enabled=YES, isExcelReport_enabled=YES, __index=1}] █<br/>
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█<br/>
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When I create a PDF report based on "YES"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="100" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Web Demo Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.quantum.listeners.QuantumReportiumListener"/>
+  </listeners>
+  <test name="Trac Deal Creation(failed)" parallel="tests">
+    <parameter name="driver.capabilities.model" value="iPhone.*"/>
+    <groups>
+      <run>
+        <include name="@DealCreation"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.DataDrivenScenario">
+        <methods>
+          <include name="scenario"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="setupSuit"/>
+          <include name="setup"/>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="afterClass"/>
+          <include name="setupMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.qmetry.qaf.automation.step.client.DataDrivenScenario -->
+    </classes>
+  </test> <!-- Trac Deal Creation(failed) -->
+</suite> <!-- Failed suite [Web Demo Suite] -->

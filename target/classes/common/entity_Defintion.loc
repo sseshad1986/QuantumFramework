@@ -1,0 +1,30 @@
+#locator repository for Entity definition page
+
+nflows.entity.newEntityDefinition.btn = //button[@class='btn btn-default margin-right-minus-2 ng-binding']
+nflows.entity.gridView.btn =//button[@class='btn btn-grey extend-btn-width']
+nflows.entity.search.txtbx =//input[@id='searchBox']
+nflows.entity.edit.grid = //div[contains(@class,'ngCanvas')]//div[1]//div[2]//div[2]//div[1]
+nflows.entity.edit.gridColumnName={"locator":"xpath=//span[contains(text(),'%s')]"}
+nflows.entity.edit.headerTitle=//span[@class='header-title']
+nflows.entity.edit.entityTab=//li[@class='active']//a[contains(text(),'Entity Definition')]
+nflows.entity.edit.rulesTab=//a[@href='#rules']
+nflows.entity.edit.groupingRulesTab=//a[contains(text(),'Entity Grouping Rules')]
+nflows.entity.edit.createNewgroupingRule=//div[@class='container-fluid margin-top-1']//button[@class='btn btn-grey innerpage-button-height innerpage-button-va'][contains(text(),'New Rule')]
+nflows.entity.edit.workflowTab=//ul[@class='nav nav-tabs workflow-tab-border-bottom padding-top-bottom margin-top-5-minus']//a[contains(text(),'Workflow')]
+nflows.entity.edit.newRuleBtn = //div[@id='rules']//button[@class='btn btn-grey innerpage-button-height innerpage-button-va'][contains(text(),'New Rule')]
+nflows.entity.edit.saveEntity=//button[@id='model_data']
+
+nflows.entity.edit.searchGroupingRule=//input[@id='searchGrpBox']
+nflows.entity.edit.gridRuleName=//span[@class='ng-binding'][contains(text(),'Create Group rule-16')][1]
+
+nflows.entity.workflowTab.searchWorkflow=//input[@id='searchWfl']
+nflows.entity.workflowTab.workflowName={"locator":"xpath=//span[contains(text(),'%s')]"}
+nflows.entity.workflowTab.workflowLoader=//div[@id='loader']//div[@class='sk-circle12 sk-child']
+
+
+# locators for multi-lingual
+
+nflows.entityDefinition.EntityName.label=//label[text()='Entity name']
+nflows.entityDefinition.Menuname.label=//label[text()='Menu name']
+nflows.entityDefinition.Description.label=//label[text()='Description']
+nflows.entityDefinition.Status.label=//label[text()='Status']

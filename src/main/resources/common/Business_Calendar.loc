@@ -1,0 +1,24 @@
+#locator repository for Business Calendar page
+#search.text.box = {\"locator\":\"name=q\",\"desc\":\"Search Text Box\"}
+
+nflows.Calendar.unavailable=//h1/span[text()='This site can’t be reached']
+nflows.Calendar.pageNotFound=//title[text()='nFlows - Page Not Found']
+
+nflows.Calendar.newcalendar.button = //button[@class='btn btn-default']
+nflows.Calendar.searchbx.txtbx = //input[@id='searchBox']
+nflows.Calendar.searchresult = //span[@class='ng-binding']
+nflows.Calendar.searchresult.edit = //div[@class='WRITE ng-scope']
+
+nflows.Calendar.newcalendar.calendarname.txtbx = //input[contains(@class,'form-control control-width-90')]
+nflows.Calendar.newcalendar.description.txtbx = //textarea
+nflows.Calendar.newcalendar.weekenddays.drpdwn = //button[@class='dropdown-toggle ng-binding ng-scope']
+nflows.Calendar.newcalendar.weekenddays.sunday = //a[@class='option']
+
+nflows.Calendar.newcalendar.status.toggle = //span[@class='btn btn-default btn-toggle-handle btn-toggle-default mini toggle-handle']
+nflows.Calendar.newcalendar.status.Active = //toggle
+
+
+nflows.Calendar.newcalendar.save.button = //button[@class='btn btn-default margin-right-minus-2']
+nflows.Calendar.newcalendar.cancel.button = //button[@class='btn btn-grey']
+nflows.Calendar.newcalendar.successmsg = //div[@class='notification-title']
+

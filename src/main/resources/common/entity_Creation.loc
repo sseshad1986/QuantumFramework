@@ -1,0 +1,39 @@
+#locator repository for Login page
+#search.text.box = {\"locator\":\"name=q\",\"desc\":\"Search Text Box\"}
+
+nflows.entitycreation.newEntityCreation.button=//button[contains(text(),'%s')]
+nflows.entitycreation.downloadXML.link=//a[contains(text(),'Download XML Template')]
+nflows.entitycreation.downloadJSON.link=//a[contains(text(),'Download JSON Template')]
+nflows.entitycreation.downloadExcel.link=//a[contains(text(),'Download Excel Template')]
+nflows.entitycreation.search.textBox=//input[@placeholder='Search...' and @id='searchBox']
+nflows.entitycreation.entitydatatable.grid=(//div[@class='ui-grid-contents-wrapper'])[1]
+nflows.entitycreation.headerRow.grid=(//div[@class='ui-grid-header-cell-row'])[1]
+nflows.entitycreation.dataRow.grid=//div[@class='ui-grid-row ng-scope']
+nflows.entitycreation.nextPage.grid=//button[@data-ng-click='goto_next()'][2]
+nflows.entitycreation.save=//div[contains(@class,'entity-header-fixed-top')]//button[text()='Save']
+nflows.entitycreation.cancel=//div[contains(@class,'entity-header-fixed-top')]//button[text()='Cancel']
+nflows.entitycreation.modelPopCloseBtn=//div[@id='modalMsg']//button[contains(text(),'Close')]
+nflows.entitycreation.tabHyperlink = //li[@class='ng-scope']//a[text()='%s']
+
+$ Locators for Document Manager Tab
+nflows.entitycreation.Entitylevelfields=//span[contains(text(),'Entity Fields')]
+nflows.entitycreation.searchBxGridData=//input[@placeholder='Search...' and @ng-change='searchDocumentGridData()']
+nflows.entitycreation.SearchRecordResult=//span[@class='text-overflow line-height-30 ng-binding ng-scope'][1]
+nflows.entitycreation.entityRowRecord=//span[@popover-title='%s']
+nflows.entitycreation.expandEntityRecord=//i[@class='clickable ng-scope ui-grid-icon-plus-squared']
+nflows.entitycreation.fieldentityRowRecord=//div[contains(text(),'%s')]
+nflows.entitycreation.downloadParentfile=//div[@class='request-trigger-left margin-left-10 animated fadeIn']//img[@class='document-download-img']
+nflows.entitycreation.loadingicon=//div[@id='loader']//div[@class='sk-circle12 sk-child']
+nflows.entitycreation.Workflowlevelfields=//span[contains(text(),'Workflow Fields')]
+nflows.entitycreation.ParentFileName=//div[@class='request-trigger-left margin-left-10 animated fadeIn']//span[@class='document-header ng-binding']
+
+# Locators regarding Cancel Pop up
+nflows.entitycreation.cancelPopup=//div[@id='modalCancelRecord']//div[@class='modal-content']
+nflows.entitycreation.cancelYes=//div[@id='modalCancelRecord']//div[@class='modal-content']//button[contains(text(),'Yes')]
+nflows.entitycreation.cancelNo=//div[@id='modalCancelRecord']//div[@class='modal-content']//button[contains(text(),'No')]
+
+# Locators regarding field group
+nflows.entitycreation.grid.columns=//div[contains(@ng-init,'%s')]/following::div[@col-index='renderIndex']/span[contains(@class,'ui-grid-header-cell-label')]
+nflows.entitycreation.grid.addRows=//div[contains(@ng-init,'%s')]/span
+
+nflows.entitycreation.grid.rows=//div[contains(@ng-init,'%s')]/following::div[@class='ui-grid-canvas']//div[@class='ui-grid-row ng-scope']

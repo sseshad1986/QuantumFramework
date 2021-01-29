@@ -1,0 +1,1039 @@
+<html>
+<head>
+<title>TestNG:  Web Scenarios iOS Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Web Scenarios iOS Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/8/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Aug 27 21:56:38 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>1 seconds (1249 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>@Web </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Search Keyword CSV Data()'><b>Search Keyword CSV Data</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Search Keyword CSV Data)<br>Parameters: {searchKey=quantum perfecto, searchResult=Introducing Quantum Framework, __index=1}<br/>
+<a href="#Output-697941646" onClick='toggleBox("Output-697941646", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-697941646" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-697941646">
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█<br/>
+█ TEST STARTED: Search Keyword CSV Data [{searchKey=quantum perfecto, searchResult=Introducing Quantum Framework, __index=1}] █<br/>
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█<br/>
+▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀<br/>
+<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>Given I am on Google Search Page</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.</div></div><div  class="teststep"><span class="teststep-label">T </span>When I search for "${searchKey}"</div><div  class="teststep"><span class="teststep-label">T </span>Then it should have "${searchResult}" in search results</div></div><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.
+	at .Given I am on Google Search Page(src/main/resources/scenarios/webSearch.feature:41)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:170)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:474)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:254)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(GoogleStepDefs.java:20)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:69)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;STRINLP030&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: driver.version: unknown
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:568)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:149)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:474)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:254)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(GoogleStepDefs.java:20)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:69)
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: com.thoughtworks.selenium.CommandProcessor
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:92)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:564)
+	... 35 more
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace697941646", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace697941646'><pre>org.openqa.selenium.TimeoutException: Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.
+	at .Given I am on Google Search Page(src/main/resources/scenarios/webSearch.feature:41)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:170)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:474)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:254)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(GoogleStepDefs.java:20)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:69)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;STRINLP030&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: driver.version: unknown
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:568)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:149)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:474)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:254)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(GoogleStepDefs.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:781)
+	at org.testng.TestRunner.run(TestRunner.java:635)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: com.thoughtworks.selenium.CommandProcessor
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:92)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:564)
+	... 35 more
+</pre></div></td>
+<td>0</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3f1</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Search Keyword CSV Data()'><b>Search Keyword CSV Data</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Search Keyword CSV Data)<br>Parameters: {searchKey=Project-Quantum Quantum-Starter-Kit, searchResult=GitHub, __index=2}<br/>
+<a href="#Output-455111159" onClick='toggleBox("Output-455111159", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-455111159" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-455111159">
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█<br/>
+█ TEST STARTED: Search Keyword CSV Data [{searchKey=Project-Quantum Quantum-Starter-Kit, searchResult=GitHub, __index=2}] █<br/>
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█<br/>
+▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀<br/>
+<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>Given I am on Google Search Page</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.</div></div><div  class="teststep"><span class="teststep-label">T </span>When I search for "${searchKey}"</div><div  class="teststep"><span class="teststep-label">T </span>Then it should have "${searchResult}" in search results</div></div><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.
+	at .Given I am on Google Search Page(src/main/resources/scenarios/webSearch.feature:41)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:170)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:474)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:254)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(GoogleStepDefs.java:20)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:69)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;STRINLP030&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: driver.version: unknown
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:568)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:149)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:474)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:254)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(GoogleStepDefs.java:20)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:69)
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: com.thoughtworks.selenium.CommandProcessor
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:92)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:564)
+	... 35 more
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace455111159", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace455111159'><pre>org.openqa.selenium.TimeoutException: Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.
+	at .Given I am on Google Search Page(src/main/resources/scenarios/webSearch.feature:41)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:170)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:474)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:254)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(GoogleStepDefs.java:20)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:69)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;STRINLP030&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: driver.version: unknown
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:568)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:149)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:474)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:254)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(GoogleStepDefs.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:781)
+	at org.testng.TestRunner.run(TestRunner.java:635)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: com.thoughtworks.selenium.CommandProcessor
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:92)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:564)
+	... 35 more
+</pre></div></td>
+<td>0</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3f1</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Search Keyword Inline Data()'><b>Search Keyword Inline Data</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Search Keyword Inline Data)<br>Parameters: {recId=1, recDescription=First Data Set, searchKey=quantum perfecto, searchResult=Introducing Quantum Framework, __index=1}<br/>
+<a href="#Output-2122711324" onClick='toggleBox("Output-2122711324", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2122711324" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2122711324">
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█<br/>
+█ TEST STARTED: Search Keyword Inline Data [{recId=1, recDescription=First Data Set, searchKey=quantum perfecto, searchResult=Introducing Quantum Framework, __index=1}] █<br/>
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█<br/>
+▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀<br/>
+<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>Given I am on Google Search Page</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.</div></div><div  class="teststep"><span class="teststep-label">T </span>When I search for "${searchKey}"</div><div  class="teststep"><span class="teststep-label">T </span>Then it should have "${searchResult}" in search results</div></div><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.
+	at .Given I am on Google Search Page(src/main/resources/scenarios/webSearch.feature:21)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:170)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:474)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:254)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(GoogleStepDefs.java:20)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:69)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;STRINLP030&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: driver.version: unknown
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:568)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:149)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:474)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:254)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(GoogleStepDefs.java:20)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:69)
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: com.thoughtworks.selenium.CommandProcessor
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:92)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:564)
+	... 35 more
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2122711324", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2122711324'><pre>org.openqa.selenium.TimeoutException: Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.
+	at .Given I am on Google Search Page(src/main/resources/scenarios/webSearch.feature:21)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:170)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:474)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:254)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(GoogleStepDefs.java:20)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:69)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;STRINLP030&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: driver.version: unknown
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:568)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:149)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:474)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:254)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(GoogleStepDefs.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:781)
+	at org.testng.TestRunner.run(TestRunner.java:635)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: com.thoughtworks.selenium.CommandProcessor
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:92)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:564)
+	... 35 more
+</pre></div></td>
+<td>0</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ef</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Search Keyword Inline Data()'><b>Search Keyword Inline Data</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Search Keyword Inline Data)<br>Parameters: {recId=2, recDescription=Second Data Set, searchKey=Project-Quantum Quantum-Starter-Kit, searchResult=GitHub, __index=2}<br/>
+<a href="#Output-1779508191" onClick='toggleBox("Output-1779508191", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1779508191" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1779508191">
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█<br/>
+█ TEST STARTED: Search Keyword Inline Data [{recId=2, recDescription=Second Data Set, searchKey=Project-Quantum Quantum-Starter-Kit, searchResult=GitHub, __index=2}] █<br/>
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█<br/>
+▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀<br/>
+<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>Given I am on Google Search Page</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.</div></div><div  class="teststep"><span class="teststep-label">T </span>When I search for "${searchKey}"</div><div  class="teststep"><span class="teststep-label">T </span>Then it should have "${searchResult}" in search results</div></div><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.
+	at .Given I am on Google Search Page(src/main/resources/scenarios/webSearch.feature:21)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:170)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:474)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:254)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(GoogleStepDefs.java:20)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:69)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;STRINLP030&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: driver.version: unknown
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:568)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:149)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:474)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:254)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(GoogleStepDefs.java:20)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:69)
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: com.thoughtworks.selenium.CommandProcessor
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:92)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:564)
+	... 35 more
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1779508191", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1779508191'><pre>org.openqa.selenium.TimeoutException: Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.
+	at .Given I am on Google Search Page(src/main/resources/scenarios/webSearch.feature:21)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:170)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:474)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:254)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(GoogleStepDefs.java:20)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:69)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;STRINLP030&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: driver.version: unknown
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:568)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:149)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:474)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:254)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(GoogleStepDefs.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:781)
+	at org.testng.TestRunner.run(TestRunner.java:635)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: com.thoughtworks.selenium.CommandProcessor
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:92)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:564)
+	... 35 more
+</pre></div></td>
+<td>0</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ef</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Search Keyword XML Data()'><b>Search Keyword XML Data</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Search Keyword XML Data)<br>Parameters: {recId=1, searchKey=quantum perfecto, searchResult=Introducing Quantum Framework, __index=1}<br/>
+<a href="#Output-537750369" onClick='toggleBox("Output-537750369", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-537750369" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-537750369">
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█<br/>
+█ TEST STARTED: Search Keyword XML Data [{recId=1, searchKey=quantum perfecto, searchResult=Introducing Quantum Framework, __index=1}] █<br/>
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█<br/>
+▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀<br/>
+<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>Given I am on Google Search Page</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.</div></div><div  class="teststep"><span class="teststep-label">T </span>When I search for "${searchKey}"</div><div  class="teststep"><span class="teststep-label">T </span>Then it should have "${searchResult}" in search results</div></div><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.
+	at .Given I am on Google Search Page(src/main/resources/scenarios/webSearch.feature:32)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:170)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:474)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:254)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(GoogleStepDefs.java:20)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:69)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;STRINLP030&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: driver.version: unknown
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:568)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:149)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:474)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:254)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(GoogleStepDefs.java:20)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:69)
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: com.thoughtworks.selenium.CommandProcessor
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:92)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:564)
+	... 35 more
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace537750369", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace537750369'><pre>org.openqa.selenium.TimeoutException: Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.
+	at .Given I am on Google Search Page(src/main/resources/scenarios/webSearch.feature:32)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:170)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:474)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:254)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(GoogleStepDefs.java:20)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:69)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;STRINLP030&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: driver.version: unknown
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:568)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:149)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:474)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:254)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(GoogleStepDefs.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:781)
+	at org.testng.TestRunner.run(TestRunner.java:635)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: com.thoughtworks.selenium.CommandProcessor
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:92)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:564)
+	... 35 more
+</pre></div></td>
+<td>0</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3f0</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Search Keyword XML Data()'><b>Search Keyword XML Data</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Search Keyword XML Data)<br>Parameters: {recId=2, searchKey=Project-Quantum Quantum-Starter-Kit, searchResult=GitHub, __index=2}<br/>
+<a href="#Output-214485555" onClick='toggleBox("Output-214485555", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-214485555" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-214485555">
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█<br/>
+█ TEST STARTED: Search Keyword XML Data [{recId=2, searchKey=Project-Quantum Quantum-Starter-Kit, searchResult=GitHub, __index=2}] █<br/>
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█<br/>
+▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀<br/>
+<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>Given I am on Google Search Page</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.</div></div><div  class="teststep"><span class="teststep-label">T </span>When I search for "${searchKey}"</div><div  class="teststep"><span class="teststep-label">T </span>Then it should have "${searchResult}" in search results</div></div><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.
+	at .Given I am on Google Search Page(src/main/resources/scenarios/webSearch.feature:32)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:170)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:474)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:254)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(GoogleStepDefs.java:20)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:69)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;STRINLP030&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: driver.version: unknown
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:568)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:149)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:474)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:254)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(GoogleStepDefs.java:20)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:69)
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: com.thoughtworks.selenium.CommandProcessor
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:92)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:564)
+	... 35 more
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace214485555", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace214485555'><pre>org.openqa.selenium.TimeoutException: Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.
+	at .Given I am on Google Search Page(src/main/resources/scenarios/webSearch.feature:32)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:170)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:474)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:254)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(GoogleStepDefs.java:20)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:69)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;STRINLP030&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: driver.version: unknown
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:568)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:149)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:474)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:254)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(GoogleStepDefs.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:781)
+	at org.testng.TestRunner.run(TestRunner.java:635)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: com.thoughtworks.selenium.CommandProcessor
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:92)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:564)
+	... 35 more
+</pre></div></td>
+<td>0</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3f0</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.Scenario.Search Quantum()'><b>Search Quantum</b><br>Test class: com.qmetry.qaf.automation.step.client.Scenario (Search Quantum)<br/>
+<a href="#Output-474434436" onClick='toggleBox("Output-474434436", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-474434436" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-474434436">
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█<br/>
+█ TEST STARTED: Search Quantum █<br/>
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█<br/>
+▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀<br/>
+<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>Given I am on Google Search Page</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.</div></div><div  class="teststep"><span class="teststep-label">T </span>When I search for "quantum perfecto"</div><div  class="teststep"><span class="teststep-label">T </span>Then it should have "Introducing Quantum Framework" in search results</div><div  class="teststep"><span class="teststep-label">T </span>Then I am on Google Search Page</div></div><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.
+	at .Given I am on Google Search Page(src/main/resources/scenarios/webSearch.feature:6)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:170)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:474)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:254)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(GoogleStepDefs.java:20)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:232)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;STRINLP030&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: driver.version: unknown
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:568)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:149)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:474)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:254)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(GoogleStepDefs.java:20)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:232)
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: com.thoughtworks.selenium.CommandProcessor
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:92)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:564)
+	... 35 more
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace474434436", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace474434436'><pre>org.openqa.selenium.TimeoutException: Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.
+	at .Given I am on Google Search Page(src/main/resources/scenarios/webSearch.feature:6)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:170)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:474)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:254)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(GoogleStepDefs.java:20)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:232)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;STRINLP030&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: driver.version: unknown
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:568)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:149)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:474)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:254)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(GoogleStepDefs.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:232)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:781)
+	at org.testng.TestRunner.run(TestRunner.java:635)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: com.thoughtworks.selenium.CommandProcessor
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:92)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:564)
+	... 35 more
+</pre></div></td>
+<td>0</td>
+<td>com.qmetry.qaf.automation.step.client.Scenario@3ed</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.Scenario.Search Quantum with results()'><b>Search Quantum with results</b><br>Test class: com.qmetry.qaf.automation.step.client.Scenario (Search Quantum with results)<br/>
+<a href="#Output-1164117607" onClick='toggleBox("Output-1164117607", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1164117607" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1164117607">
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█<br/>
+█ TEST STARTED: Search Quantum with results █<br/>
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█<br/>
+▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀<br/>
+<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>Given I am on Google Search Page</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.</div></div><div  class="teststep"><span class="teststep-label">T </span>When I search for "Project-Quantum Quantum-Starter-Kit"</div><div  class="teststep"><span class="teststep-label">T </span>Then it should have following search results:["Quantum-Starter-Kit","Project-Quantum"]</div></div><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.
+	at .Given I am on Google Search Page(src/main/resources/scenarios/webSearch.feature:13)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:170)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:474)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:254)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(GoogleStepDefs.java:20)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:232)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;STRINLP030&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: driver.version: unknown
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:568)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:149)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:474)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:254)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(GoogleStepDefs.java:20)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:232)
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: com.thoughtworks.selenium.CommandProcessor
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:92)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:564)
+	... 35 more
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1164117607", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1164117607'><pre>org.openqa.selenium.TimeoutException: Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.
+	at .Given I am on Google Search Page(src/main/resources/scenarios/webSearch.feature:13)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:170)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:474)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:254)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(GoogleStepDefs.java:20)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:232)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: Unable to create driver instance in 1st attempt with retry timeout of 60 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;STRINLP030&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: driver.version: unknown
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:568)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:149)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:474)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:254)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.quantum.steps.GoogleStepDefs.I_am_on_Google_Search_Page(GoogleStepDefs.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:232)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:781)
+	at org.testng.TestRunner.run(TestRunner.java:635)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: com.thoughtworks.selenium.CommandProcessor
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:92)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:564)
+	... 35 more
+</pre></div></td>
+<td>0</td>
+<td>com.qmetry.qaf.automation.step.client.Scenario@3ee</td></tr>
+</table><p>
+</body>
+</html>

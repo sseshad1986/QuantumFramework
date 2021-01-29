@@ -1,0 +1,73 @@
+#locator repository for Roles page
+#search.text.box = {\"locator\":\"name=q\",\"desc\":\"Search Text Box\"}
+
+nflows.admin.roles.unavailable=//h1/span[text()='This site can’t be reached']
+nflows.admin.roles.pageNotFound=//title[text()='nFlows - Page Not Found']
+
+nflows.admin.roles.newrole.button = //button[@class='btn btn-default']
+nflows.admin.roles.searchbx.txtbx = //input[@id='searchBox']
+#nflows.admin.roles.searchresult = //span[contains(text(),'XREPLACEY')]
+nflows.admin.roles.searchresult = //span[@class='ng-binding']
+#nflows.admin.roles.searchresult =//div[contains(@class,'ng-scope ngRow even')]//div[contains(@class,'col1 colt1')]//div//span[contains(@class,'ng-binding')]
+nflows.admin.roles.searchresult.edit = //div[@class='WRITE ng-scope']
+
+nflows.admin.roles.newrole.rolename.txtbx = //input[@id='role_name']
+nflows.admin.roles.newrole.description.txtbx = //textarea
+nflows.admin.roles.newrole.status.toggle = //span[@class='btn btn-default btn-toggle-handle btn-toggle-default mini toggle-handle']
+#nflows.admin.roles.newrole.status.Inactive = //div[@class='toggle btn mini btn-default off']//span
+nflows.admin.roles.newrole.status.Active = //toggle
+nflows.admin.roles.newrole.status.Inactive = //toggle[@class='margin-right-10 ng-pristine ng-untouched ng-valid ng-isolate-scope ng-not-empty']
+#nflows.admin.roles.newrole.status.Active = //toggle[@class='margin-right-10 ng-untouched ng-valid ng-isolate-scope ng-not-empty ng-dirty ng-valid-parse']
+
+nflows.admin.roles.newrole.save.button = //button[@class='btn btn-default margin-right-minus-2 ng-scope']
+nflows.admin.roles.newrole.cancel.button = //button[@class='btn btn-grey']
+nflows.admin.roles.newrole.successmsg = //div[@class='notification-title']
+
+nflows.admin.roles.menulevel.search = //*[@id="menu_access"]/div/div/div[1]/div[2]/input
+
+nflows.admin.roles.menulevel.Entity =  //*[@id="basemenu"]/div[1]/div[1]/div/div[1]/h4/a/img
+nflows.admin.roles.menulevel.workflow = //*[@id="basemenu"]/div[2]/div[1]/div/div[1]/h4/a/img
+nflows.admin.roles.menulevel.request = //*[@id="basemenu"]/div[3]/div[1]/div/div[1]/h4/a/img
+nflows.admin.roles.menulevel.task = //*[@id="basemenu"]/div[4]/div[1]/div/div[1]/h4/a/img
+nflows.admin.roles.menulevel.documentmanager = //*[@id="basemenu"]/div[5]/div[1]/div
+nflows.admin.roles.menulevel.Widgets = //*[@id="basemenu"]/div[6]/div[1]/div/div[1]/h4/a/img
+nflows.admin.roles.menulevel.dashboard = //*[@id="basemenu"]/div[7]/div[1]/div
+nflows.admin.roles.menulevel.Report = //*[@id="basemenu"]/div[8]/div[1]/div/div[1]/h4/a
+nflows.admin.roles.menulevel.Administrator = //*[@id="basemenu"]/div[10]/div[1]/div/div[1]/h4/a
+
+nflows.admin.roles.menulevel.entitydef.dropdown = //*[@id="collapse_0"]/div[2]/div/div[2]/select
+nflows.admin.roles.menulevel.workflow.dropdown = //*[@id='collapse_1']/div[2]/div/div[2]/select
+nflows.admin.roles.menulevel.myReq.dropdown = //*[@id="collapse_2"]/div[2]/div[1]/div[2]/select
+nflows.admin.roles.menulevel.reqAdmin.dropdown = //*[@id="collapse_2"]/div[2]/div[2]/div[2]/select
+nflows.admin.roles.menulevel.task.dropdown = //*[@id="collapse_3"]/div[2]/div/div[2]/select
+nflows.admin.roles.menulevel.docManager.dropdown = //*[@id="collapse_4"]/div[2]/div/div[2]/select
+nflows.admin.roles.menulevel.widgets.dropdown = //*[@id="collapse_5"]/div[2]/div/div[2]/select
+
+
+nflows.admin.roles.menulevel.AuditReport.dropdown = //*[@id="collapse_9"]/div[2]/div[2]/div[2]/select
+nflows.admin.roles.menulevel.SecurityMaster.dropdown = //*[@id="collapse_9"]/div[2]/div[2]/div[2]/select
+nflows.admin.roles.menulevel.APITokens.dropdown = //*[@id="collapse_9"]/div[2]/div[1]/div[2]/select
+nflows.admin.roles.menulevel.SysAdmin.dropdown = //*[@id="collapse_9"]/div[2]/div[4]/div[2]/select
+nflows.admin.roles.menulevel.TeamDef.dropdown = //*[@id="collapse_9"]/div[2]/div[10]/div[2]/select
+nflows.admin.roles.menulevel.Teams.dropdown = //*[@id="collapse_9"]/div[2]/div[11]/div[2]/select
+nflows.admin.roles.menulevel.Users.dropdown = //*[@id="collapse_9"]/div[2]/div[14]/div[2]/select
+nflows.admin.roles.menulevel.Roles.dropdown = //*[@id="collapse_9"]/div[2]/div[8]/div[2]/select
+nflows.admin.roles.menulevel.Message.dropdown = //*[@id="collapse_9"]/div[2]/div[6]/div[2]/select
+nflows.admin.roles.menulevel.Dropdown.dropdown = //*[@id="collapse_9"]/div[2]/div[4]/div[2]/select
+nflows.admin.roles.menulevel.ExportAPI.dropdown = //*[@id="collapse_9"]/div[2]/div[1]/div[1]
+nflows.admin.roles.menulevel.BusinessCalendar.dropdown = //*[@id="collapse_9"]/div[2]/div[3]/div[2]/select
+nflows.admin.roles.menulevel.ProcessManager.dropdown = //*[@id="collapse_9"]/div[2]/div[7]/div[2]/select
+nflows.admin.roles.menulevel.UserAccessConfig.dropdown = //*[@id="collapse_9"]/div[2]/div[12]/div[2]/select
+nflows.admin.roles.menulevel.EntDataDict.dropdown = //*[@id="collapse_9"]/div[2]/div[5]/div[2]/select
+nflows.admin.roles.menulevel.wfDataDict.dropdown = //*[@id="collapse_9"]/div[2]/div[15]/div[2]/select
+#nflows.admin.roles.menulevel.UserDef.dropdown = //*[@id="collapse_9"]/div[2]/div[17]/div[2]/select
+
+
+nflows.admin.roles.dataAccess.button = //a[contains(text(),'Data Access')]
+nflows.admin.roles.dataAccess.Search = //div[@class='col-sm-4 padding-left-zero']//input[@class='form-control header-search margin-top-6 ng-pristine ng-untouched ng-valid ng-empty']
+nflows.roles.dataAccess.Read.Dropdown = //div[@id='data_access']//div[2]//div[1]//div[1]//div[1]//button[1]
+nflows.roles.dataAccess.Write.Dropdown = //div[@class='col-sm-12 padding-zero role-data-access-grid-height']//div[3]//div[1]//div[1]//div[1]//button[1]
+nflows.roles.dataAccess.rule.Search = //input[contains(@class,'searchField')]
+nflows.roles.dataAccess.tick.button = //span[contains(@class,'glyphicon-ok')]
+
+

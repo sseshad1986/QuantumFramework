@@ -1,0 +1,19 @@
+#locator repository for Login page
+#search.text.box = {\"locator\":\"name=q\",\"desc\":\"Search Text Box\"}
+
+nflows.documentmanager.treeSearchBx = //input[contains(@data-ng-model,'tree_search')]
+nflows.documentmanager.EntityType=//span[contains(text(),'Hospital Management System')]
+nflows.documentmanager.Entitylevelfields=//span[contains(text(),'Entity Fields')]
+nflows.documentmanager.Workflowlevelfields=//span[contains(text(),'Workflow Fields')]
+nflows.documentmanager.searchBxGridData=//input[@placeholder='Search...' and @ng-change='searchDocumentGridData()']
+nflows.documentmanager.searchVersionGrid=//div[@class='ui-grid-contents-wrapper']
+nflows.documentmanager.entityRowRecord={"locator":"xpath=//span[@popover-title='%s']"} 
+nflows.documentmanager.fieldentityRowRecord={"locator":"xpath=//div[contains(text(),'%s')]"} 
+nflows.documentmanager.downloadParentfile=//img[@class='document-download-img']
+nflows.documentmanager.downloadAllfile=(//img[@data-ng-click='downloadAttachment(doc.document_key)'])[2]
+nflows.documentmanager.ExpandEntityRecord=//i[@class='clickable ng-scope ui-grid-icon-plus-squared']
+nflows.documentmanager.EntityRecordLink=//div[@class='ngCellText padding-2 ng-scope']//div//img
+nflows.documentmanager.SearchEntityResult=//span[@class='ng-binding'][1]
+nflows.documentmanager.SearchRecordResult=//span[@class='text-overflow line-height-30 ng-binding ng-scope'][1]
+nflows.documentmanager.ParentFileName=//span[@class='document-header ng-binding']
+nflows.documentmanager.loadingicon=//div[@id='loader']//div[@class='sk-circle12 sk-child']

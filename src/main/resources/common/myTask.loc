@@ -1,0 +1,34 @@
+#locator repository for My Task page
+myTask.loadingText =//div[contains(text(),'Loading...')]
+myTask.loadingicon=//div[@id='loader']//div[@class='sk-circle12 sk-child']
+
+#locator repository for My task section
+myTask.Search=//input[@id='myTaskfilterText']
+Mytask.DelayedFilter=//a[contains(text(),'Delayed')]
+Mytask.On-TrackFilter=//a[contains(text(),'On-Track')]
+Mytask.Due-TodayFilter=//a[contains(text(),'Due Today')]
+Mytask.AllFilter=//a[text()='All - '][1]
+
+myTask.gridHeader=//div[@ng-grid='taskGrid']//div[@class="ngHeaderContainer"]
+myTask.gridAllRowData=//div[@ng-grid='taskGrid']//div[@ng-style='rowStyle(row)']
+myTask.grid.nextPage=//button[@ng-click='my_task_goto_next()'][2]
+
+#locator repository for Team task section
+TeamTask.Search=//input[@id='myTeamTaskfilterText']
+TeamTask.DelayedFilter=/(//a[contains(text(),'Delayed')])[2]
+TeamTask.On-TrackFilter=/(//a[contains(text(),'On-Track')])[2]
+TeamTask.Due TodayFilter=/(//a[contains(text(),'Due Today')])[2]
+TeamTask.AllFilter=(//a[text()='All - '])[2]
+
+TeamTask.Grid=//div[@ng-grid='myTeamTaskGrid']
+TeamTask.gridHeader=//div[@ng-grid='myTeamTaskGrid']//div[@class="ngHeaderContainer"]
+TeamTask.gridAllRowData=//div[@ng-grid='myTeamTaskGrid']//div[@ng-style='rowStyle(row)']
+
+TeamTask.firstTaskName.data=(//span[contains(text(),'%s')])[1]
+TeamTask.grid.rowData=((//div[@ng-grid='myTeamTaskGrid']//div[@ng-style='rowStyle(row)'])[%d]//div[@ng-class='col.colIndex()'])[%d]//span
+TeamTask.grid.nextPage=//button[@ng-click='my_team_task_goto_next()'][2]
+
+nflows.EditmyTask.Submit.button=//button[@title='Submit']
+nflows.EditmyTask.saveAsDraft.button=//button[text()='Save as Draft']
+nflows.EditmyTask.taskHistory.button=//button[@title='History']
+nflows.EditmyTask.Cancel.button=(//button[@title='Cancel'])[1]

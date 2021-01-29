@@ -1,0 +1,18 @@
+#locator repository for message master
+#search.text.box = {\"locator\":\"name=q\",\"desc\":\"Search Text Box\"}
+
+
+nflows.wfDataDict.newField.button =//button[contains(text(),'New Field')]
+nflows.wfDataDict.Search.button =//input[@id='dp_filter']
+nflows.wfDataDict.SearchResult.grid = //div[contains(@class,'ngCellText ng-scope col1 colt1')]//span[contains(@class,'ng-binding')]
+nflows.wfDataDict.fieldName.textbox = //input[@ng-model='dp.field_name']
+nflows.wfDataDict.dataLabel.textbox = //input[@ng-model='dp.data_label']
+nflows.wfDataDict.fieldDescr.textbox = //*[@ng-model='dp.field_description']
+nflows.wfDataDict.remarks.textbox = //*[@ng-model='dp.field_remarks']
+nflows.wfDataDict.length.textbox = //input[@id='field_length']
+nflows.wfDataDict.precision.textbox = //input[@id='precision']
+nflows.wfDataDict.Select = //div[@class='form-group']//div[@class='drp_disabled ng-isolate-scope']//div[@class='multiselect-parent btn-group dropdown-multiselect']//div//button[@class='dropdown-toggle ng-binding ng-scope']
+nflows.wfDataDict.SelectDatatype = //*[contains(text(),'Number')]
+nflows.wfDataDict.Save = //button[contains(text(), 'Save')]
+nflows.wfDataDict.Search.grid = //div[contains(@class,'ngCellText ng-scope col1 colt1')]//span[contains(@class,'ng-binding')]
+nflows.wfDataDict.edit = //div[@class='WRITE ng-scope']

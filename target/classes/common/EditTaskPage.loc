@@ -1,0 +1,12 @@
+#locator repository for Login page
+#search.text.box = {\"locator\":\"name=q\",\"desc\":\"Search Text Box\"}
+
+TaskEdit.Submit.btn=//button[text()='Submit']
+TaskEdit.Cancel.btn=//button[@class='btn btn-grey margin-right-minus-2'][contains(text(),'Cancel')]
+TaskEdit.SaveDraft.btn=//button[text()='Save as Draft']
+TaskEdit.History.btn=//button[@data-ng-click='viewHistoryDropdown()']
+
+TaskEdit.Approve.btn=//button[text()='Approve']
+TaskEdit.Reject.btn=//button[text()='Reject']
+
+

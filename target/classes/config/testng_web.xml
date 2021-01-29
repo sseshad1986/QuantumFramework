@@ -1,0 +1,224 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Testng xml -->
+<suite name="Nflows" verbose="1" parallel="none"
+	thread-count="2">
+	<listeners>
+		<listener class-name="com.quantum.listeners.QuantumReportiumListener" />
+	</listeners>
+	
+	<test name="Workflow" enabled="false" thread-count="1">
+		<parameter name="driver.capabilities.model" value="iPhone.*"></parameter>
+		<groups>
+			<run>
+				<include name="@WF_00_LaunchNflows" />	
+				<include name="@WF_01_NflowsLogin" />				
+				<include name="@WF_02_FilterinMyTask" />  
+				<include name="@WF_06_MyRequest" />
+				<include name="@WF_02_FilterinMyTask" />
+				<include name="@WF_07_NflowsLogout" />
+				<include name="@WF_08_CreatePDFReport" />
+				<include name="@WF_09_CreateTestResult" />			
+		    </run>
+        </groups>
+             <classes>
+                    <class
+                    name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+             </classes>
+       </test>
+       
+       <test name="UOBAM Manual Workflow" enabled="false" thread-count="1">
+		<parameter name="driver.capabilities.model" value="galaxy.*"></parameter>
+		<groups>
+			<run>
+				<include name="@WF_00_LaunchNflows" />
+ 				<include name="@WF_01_NflowsLogin" />
+ 				<exclude name="@WF_02_MyRequest" />	
+ 						
+ 				<exclude name="@WF_03_UOBAM_WF_approval" />
+ 				<include name="@WF_04_UOBAM_WF_rejection" /> 				
+ 			
+ 				<include name="@WF_05_UOBAM_WF_ValidateRequest" /> 				
+ 				<include name="@WF_07_NflowsLogout" /> 				
+
+				<include name="@WF_08_CreateTestResult" />			
+				<include name="@WF_09_CreatePDFReport" />				
+		    </run>
+             </groups>
+             <classes>
+                    <class
+                    name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+             </classes>
+       </test>
+       
+       <test name="LPC Workflow" enabled="false" thread-count="1">
+		<parameter name="driver.capabilities.model" value="galaxy.*"></parameter>
+		<groups>
+			<run>
+				<include name="@WF_00_LaunchNflows" />
+ 				<include name="@WF_01_NflowsLogin" /> 				
+ 				
+ 				<exclude name="@WF_03_LPC_WF_approval" />
+ 				<include name="@WF_04_LPC_WF_rejection" /> 				
+ 				<include name="@WF_05_LPC_WF_ValidateRequest" />
+ 				
+ 				<include name="@WF_07_NflowsLogout" /> 				
+
+				<include name="@WF_08_CreateTestResult" />			
+				<include name="@WF_09_CreatePDFReport" />				
+		    </run>
+             </groups>
+             <classes>
+                    <class
+                    name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+             </classes>
+       </test>
+       
+        <test name="RPC Workflow" enabled="false" thread-count="1">
+		<parameter name="driver.capabilities.model" value="galaxy.*"></parameter>
+		<groups>
+			<run>
+				<include name="@WF_00_LaunchNflows" />
+ 				<include name="@WF_01_NflowsLogin" />
+ 				
+ 				<exclude name="@WF_03_RPC_WF_approval" />
+ 				<include name="@WF_04_RPC_WF_rejection" /> 				
+ 				<include name="@WF_05_RPC_WF_ValidateRequest" />
+ 				
+ 				<include name="@WF_07_NflowsLogout" /> 				
+
+				<include name="@WF_08_CreateTestResult" />			
+				<include name="@WF_09_CreatePDFReport" />				
+		    </run>
+             </groups>
+             <classes>
+                    <class
+                    name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+             </classes>
+       </test>
+       
+       <test name="Entity" enabled="false" thread-count="1">
+		<parameter name="driver.capabilities.model" value="galaxy.*"></parameter>
+		<groups>
+			<run>
+				<include name="@EN_00_LaunchNflows" />
+ 				<include name="@EN_01_NflowsLogin" />	
+ 					
+ 				<exclude name="@EN_02_CreateEntityDefinition" />
+ 				<exclude name="@EN_03_EditEntityDefinition" /> 			
+ 				<exclude name="@EN_04_CreateRuleDefinition" />
+ 				
+ 				<include name="@EN_05_EntityCreation" />
+ 				<exclude name="@EN_05_EditWorkflow" />
+ 				<include name="@EN_06_NflowsLogout" />
+ 				
+ 				<include name="@EN_07_CreatePDFReport" />
+ 				<include name="@EN_08_CreateTestResult" />
+		    </run>
+             </groups>
+             <classes>
+                    <class
+                    name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+             </classes>
+       </test>
+       
+       <test name="draft" enabled="false" thread-count="1">
+		<parameter name="driver.capabilities.model" value="galaxy.*"></parameter>
+		<groups>
+			<run>
+				<exclude name="@WF_00_LaunchNflows" />
+ 				<exclude name="@WF_01_NflowsLogin" />
+ 				<exclude name="@WF_06_MyRequest" /> 	
+ 				<exclude name="@WF_07_NflowsLogout" />  
+ 				<include name="@RG_21_CreatePDFReport" /> 
+		    </run>
+             </groups>
+             <classes>
+                    <class
+                    name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+             </classes>
+       </test>
+       
+       <test name="Regression" enabled="false" thread-count="1">
+		<parameter name="driver.capabilities.model" value="galaxy.*"></parameter>
+		<groups>
+			<run>
+				<include name="@RG_00_LaunchNflows" />
+ 				<include name="@RG_01_NflowsLogin" />
+ 				
+ 				<exclude name="@RG_02_EditEntityDefinition" />
+ 				<exclude name="@RG_03_CreateRuleDefinition" />
+ 				<exclude name="@RG_04_EntityCreation" />
+ 				<exclude name="@RG_05_UserCreation" />
+ 				
+ 				<exclude name="@RG_06_LPC_WF_approval" />
+ 				<exclude name="@RG_07_LPC_WF_rejection" />
+ 				<exclude name="@RG_08_LPC_WF_ValidateRequest" />
+ 				
+ 				<exclude name="@RG_09_RPC_WF_approval" />
+ 				<include name="@RG_10_RPC_WF_rejection" />
+ 				<include name="@RG_11_RPC_WF_ValidateRequest" />
+ 				
+ 				<exclude name="@RG_13_MyRequest" />
+ 				
+ 				<exclude name="@RG_14_UOBAM_WF_approval" />
+ 				<exclude name="@RG_15_UOBAM_WF_rejection" />
+ 				<exclude name="@RG_16_UOBAM_WF_ValidateRequest" />
+ 				
+ 				<exclude name="@RG_14_AllPage" />
+ 				<exclude name="@RG_15_ReportExecution" /> 	
+ 				
+ 				<include name="@RG_20_NflowsLogout" />
+ 				<include name="@RG_21_CreatePDFReport" /> 
+ 				<include name="@RG_22_CreateTestResult" /> 
+		    </run>
+             </groups>
+             <classes>
+                    <class
+                    name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+             </classes>
+       </test>
+        <test name="messageMaster" enabled="false" thread-count="2">
+		<parameter name="driver.capabilities.model" value="galaxy.*"></parameter>
+		<groups>
+			<run>
+				<include name="@MS_00_LaunchNflows" />
+				<include name="@MS_01_NflowsLogin" />	
+				<exclude name="@MS_02_MessageMaster" />
+				<exclude name="@MS_02_1_MessageMaster" />
+				<exclude name="@MS_03_EntityDataDictionary" />
+				<include name="@MS_04_WorkflowDataDictionary" />
+				<exclude name="@MS_06_CreatePDFReport" />
+				<exclude name="@MS_07_CreateTestResult" />	
+		    </run>
+             </groups>
+             <classes>
+                    <class
+                    name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+             </classes>
+       </test>
+          <test name="Roles" enabled="true" thread-count="1">
+		<parameter name="driver.capabilities.model" value="galaxy.*"></parameter>
+		<groups>
+			<run>
+				<include name="@AD_00_LaunchNflows" />
+				<include name="@AD_01_NflowsLogin" />	
+				<exclude name="@Roles_Disabled_3_1" />
+				<exclude name="@Roles_Write_3_2" />
+				<exclude name="@Roles_Read_3_3" />
+				<exclude name="@Roles_3_6"/>
+				<include name="@Roles_3_7"/>
+				<exclude name="@Roles_3_8"/>
+				<exclude name="@Roles_3_9"/>
+				<exclude name="@Roles_3_10"/>
+				<exclude name="@Roles_3_11"/>
+				<exclude name="@Roles_3_12"/>
+ 				<include name="@AD_07_CreateTestResult" />
+				<include name="@Roles_CreatePDFReport" />
+		    </run>
+             </groups>
+             <classes>
+                    <class
+                    name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+             </classes>
+       </test>
+</suite>

@@ -1,0 +1,22 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "createTestResult",
+      "args": [
+        "[YES]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "When I create a Test Result file based on \"YES\"",
+      "type": "TestStepPass",
+      "duration": 266,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

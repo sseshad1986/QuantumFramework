@@ -1,0 +1,39 @@
+#locator repository for myRequest Landing page
+nflows.myrequest.searchbx.txtbx = //input[@id='filterText']|//input[@id='searchBoxRequest']
+nflows.myrequest.recalculate.btn = //button[text()='Recalculate']
+nflows.myrequest.newRequest.btn = //button[text()='New Request']
+nflows.myrequest.graphnode.lnk = //i[contains(@class,'my-request-graph-icon')]
+nflows.myrequest.parentplusBtn.btn = //i[contains(@class,'clickable ng-scope ui-grid-icon-plus-squared')]
+nflows.myrequest.showOtherRequest.chkbx = //div[@class='checkmark-checkbox']
+nflows.myrequest.loader=//div[@id='loader']//div[@class='sk-circle12 sk-child']
+nflows.myrequest.datagrid=(//div[@class='ui-grid-canvas'])[2]
+nflows.myrequest.datarows=(//div[@class='ui-grid-canvas'])[2]/div[@class='ui-grid-row ng-scope'][1]
+nflows.myrequest.singleRow=(//div[@class='ui-grid-canvas'])[2]/div[@class='ui-grid-row ng-scope']
+nflows.myrequest.expandIcon=(//div[@class='ui-grid-canvas'])[1]/div[@class='ui-grid-row ng-scope'][1]
+nflows.myrequest.singlegridCell=(//div[@class='ui-grid-canvas'])[2]/div[@class='ui-grid-row ng-scope'][1]//div[@ng-click='grid.appScope.rowSingleClick(row)']
+
+#locator repository for New Request page
+nflows.myrequest.newRequest.workflowName=//span[@class='ng-binding'][contains(text(),'%s')]
+nflows.myrequest.newRequest.entityName=//span[contains(text(),'%s')]
+nflows.myrequest.newRequest.searchRecord=//span[@class='ng-binding'][contains(text(),'Employee On-Boarding Workflow')]
+nflows.myrequest.newRequest.back=//button[@class='btn btn-grey']
+nflows.myrequest.newRequest.entityRecordLookupNewReq=//button[contains(text(),'Entity Record Lookup')]
+nflows.myrequest.newRequest.start=//button[text()='Start']
+nflows.myrequest.newRequest.checkIniation=//input[@id='role_name']
+
+#locator repository for New Request pop up
+nflows.myrequest.newRequest.popup=//div[@class='modal-content']
+nflows.myrequest.newRequest.searchInitiation=//div[contains(@class,'col-sm-4 padding-zero')]//input[contains(@placeholder,'Search...')]
+nflows.myrequest.newRequest.addInitiation=//button[@id='btn_initiation_flds']
+nflows.myrequest.newRequest.closeInitiation=//button[contains(text(),'Close')]
+
+#locator repository for New Request grid elements (rows and column)
+nflows.myrequest.newRequest.datagrid=//div[@id='grid_scrn']
+nflows.myrequest.newRequest.gridHeader=//div[@id='grid_scrn']//div[@class='ngHeaderContainer']//div[@class='ngHeaderSortColumn ']
+nflows.myrequest.newRequest.dataRows=//div[@id='grid_scrn']//div[@ng-style='rowStyle(row)']
+nflows.myrequest.newRequest.grid.singledataRow=//div[@id='grid_scrn']//div[@ng-style='rowStyle(row)']//div[contains(@class,'ngCellText')]
+
+nflows.myrequest.baselineTargetDate=(//div[@class='ui-grid-row ng-scope']//following::div[@ng-click='grid.appScope.rowSingleClick(row)'])[9]
+nflows.myrequest.estimatedTargetDate=(//div[@class='ui-grid-row ng-scope']//following::div[@ng-click='grid.appScope.rowSingleClick(row)'])[10]
+nflows.myrequest.actualStartDate=(//div[@class='ui-grid-row ng-scope']//following::div[@ng-click='grid.appScope.rowSingleClick(row)'])[11]
+nflows.myrequest.actualCompletionDate=(//div[@class='ui-grid-row ng-scope']//following::div[@ng-click='grid.appScope.rowSingleClick(row)'])[12]
